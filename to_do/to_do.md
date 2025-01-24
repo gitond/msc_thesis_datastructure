@@ -22,7 +22,6 @@ Additional sources needed:
 
 Development to-do:
  - Quickly familiarize yourself with ARKit/ARCore
- - **IMPORTANT**: <mark>SETUP</mark> git and proper datastructure
 
 Structural changes:
  - **IMPORTANT** <mark>UPDATE</mark> structural changes discussed in last guidance session to toc
