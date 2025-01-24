@@ -35,7 +35,7 @@ Justification: This article is about looking at a multitude of real-world proble
 Potential issues: The overwhelming focus on multiuser and edge computing means that the architectures described here are not the best fit for our specific problems.
 
 5.
-Source: Soh L & Burke J & Zhang L, 2018, Supporting augmented reality: Looking beyond performance, https://dl.acm.org/doi/10.1145/3229625.3229627
+Source: Soh L. & Burke J. & Zhang L., 2018, Supporting augmented reality: Looking beyond performance, https://dl.acm.org/doi/10.1145/3229625.3229627
 Topic: 3.1. Client-Server Architectures
 Justification: Discusses web/cloud development from an AR perspective
 Potential issues: Relevance, Quality, Age
@@ -45,3 +45,57 @@ Source: Naqvi N.Z. et al, 2015, To cloud or not to cloud: A context-aware deploy
 Topic: 2. Detailed Problem Description, 4.1. Problem Description, 4.3. Proposed Architecture
 Justification: This article basically discusses whether or not integrating cloud features in an AR mobile app is worth it or not. 
 Potential issues: This might include a lot of relevant insights or it might not. I couldn't decide by reading the abstract and scrolling through the article. The work itself appears high quality and it "borders" relativity to this project. However it's also quite old and might be outdated.
+
+7.
+Source: Suri H. et al, 2023, Computer Vision: A Detailed Review on Augmented Reality (AR), Virtual Reality (VR), Telehealth, and Digital Radiology, https://link.springer.com/chapter/10.1007/978-981-99-0369-6_7 , DOWNLOADED
+Topic: 3.2. Computer Vision (CV)
+Justification: I still don't have any sources on computer vision and this article looks like it provides an overview
+Potential issues: Quality. Although this article claims to be written to review the usage of CV in AR applications, the part on AR is so short it's basically negligable.
+
+8.
+Source: Anderson J. & Thomas R., 2024, Augmented Reality Applications Enabled by Computer Vision Technologies, https://easychair.org/publications/preprint/6VZH 
+Topic: 3.2. Computer Vision (CV), 3.4. Augumented Reality (AR)
+Justification: This is a source that claims to cover both CV, AR and their ability to work together. If this is true AND the quality is high enought, than this is exactly the kind of source this literature cover aims to uncover
+Potential issues: Preprint, short, possible quality issues
+
+9.
+Source: Ghasemi Y. et al, 2022, Deep learning-based object detection in augmented reality: A systematic review, https://www.sciencedirect.com/science/article/pii/S0166361522000586
+Topic: 3.2. Computer Vision (CV), 3.3. Client-Server Architecture with AI Integration, 3.4. Augumented Reality (AR)
+Justification: This discusses exactly the topics I want CV, AR, how they work together. It even seems to touch on running these on a server. Furthermore it seems to be very high quality and could be used as a basis for snowballing.
+Potential issues: Literature review. Also: kinda old (2022)
+
+10.
+Source: Minaee S. & Liang X. & Yan S, 2022, Modern Augmented Reality: Applications, Trends, and Future Directions
+Topic: 3.2. Computer Vision (CV), 3.4. Augumented Reality (AR)
+Justification: Best source on building an AR app with CV technology underneath. Also provides technical examples.
+Potential issues: ---
+
+11.
+Source: Pylvänäinen J. W. et al., 2023, Supporting Microscopy Learning with Ocul-AR, a Virtual and Augmented Reality-Powered Mobile Application, https://ceur-ws.org/Vol-3393/TELL23_paper_7227_3.pdf 
+Topic: 2. Detailed Problem Description, 3.4. Augumented Reality (AR)
+Justification: A situation where an AR application is used to teach the use of a device, similar to our use case. Also: Made in Turku!!! I can potentially even contact the people behind this project for further questions etc
+Potential issues: ---
+
+12.
+Source: Estrada J. et al., 2022, Deep-Learning-Incorporated Augmented Reality Application for Engineering Lab Training https://www.mdpi.com/2076-3417/12/10/5159
+Topic: 2. Detailed Problem Description, 3.4. Augumented Reality (AR), 4.3. Proposed Architecture
+Justification: This is very very similar to what we're trying to do, up to a frightening level. They even have a proposed architecture. A very noteworthy and high-quality paper.
+Potential issues: ---
+
+13.
+Source: Van Gestel F. et al., 2024, Augmented reality guidance improves accuracy of otrhopeic drilling procedures, https://www.nature.com/articles/s41598-024-76132-3 (Authors, year, title, link)
+Topic: 3.4. Augumented Reality (AR)
+Justification: An example of an application where AR is used to guide a user with a procedure. Very recent (2024 October!!) and published in a respected journal (Nature)
+Potential issues: Relevancy??
+
+14.
+Source: Reyes A. M. et al., 2016, A mobile augmented reality system to support machinery operations in scholar environments, https://onlinelibrary.wiley.com/doi/full/10.1002/cae.21772
+Topic: 3.4. Augumented Reality (AR)
+Justification: An example of an application where AR is used to train people on machinery. Appears to be high quality.
+Potential issues: Old (2016), Relevancy??
+
+15.
+Source: Lin Y.T. & Lee I.J., 2020, Development of an Augmented Realiy System Achieving in CNC Machine Operation Simulations in Furniture Trial Teaching Course, https://link.springer.com/chapter/10.1007/978-3-030-49698-2_9
+Topic: 3.4. Augumented Reality (AR)
+Justification: An example of an application where AR is used to train people on machinery. Also touches on the development of said system.
+Potential issues: Quality Issues?
