@@ -1,0 +1,92 @@
+﻿Scopus
+EXPORT DATE: 25 October 2024
+
+Taylor C., Pasquale J.
+AUTHOR FULL NAMES: Taylor, Cynthia (55814184500); Pasquale, Joe (7003460910)
+55814184500; 7003460910
+Towards a proximal resource-based architecture to support augmented reality applications
+(2010) 2010 Cloud-Mobile Convergence for Virtual Reality Workshop, CMCVR 2010 - Proceedings, art. no. 5560606, pp. 5 - 9, Cited 12 times.
+DOI: 10.1109/CMCVR.2010.5560606
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-77958489358&doi=10.1109%2fCMCVR.2010.5560606&partnerID=40&md5=8c7e7f32b7121a49ad6e63a90e657a7a
+
+DOCUMENT TYPE: Conference paper
+PUBLICATION STAGE: Final
+OPEN ACCESS: All Open Access; Green Open Access
+SOURCE: Scopus
+
+Chiu P.-H., Tseng P.-H., Feng K.-T.
+AUTHOR FULL NAMES: Chiu, Pei-Hsuan (55937379500); Tseng, Po-Hsuan (57191344338); Feng, Kai-Ten (34769680100)
+55937379500; 57191344338; 34769680100
+Cloud computing based mobile augmented reality interactive system
+(2016) IEEE Wireless Communications and Networking Conference, WCNC, art. no. 6953084, pp. 3320 - 3325, Cited 6 times.
+DOI: 10.1109/WCNC.2014.6953084
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-84912101471&doi=10.1109%2fWCNC.2014.6953084&partnerID=40&md5=1c96cfd33d3190ca200914c1c18ab2ea
+
+DOCUMENT TYPE: Conference paper
+PUBLICATION STAGE: Final
+SOURCE: Scopus
+
+Carius L., Eichhorn C., Rudolph L., Plecher D.A., Klinker G.
+AUTHOR FULL NAMES: Carius, Lars (57671212000); Eichhorn, Christian (36602305900); Rudolph, Linda (57215282600); Plecher, David A. (55923283100); Klinker, Gudrun (6603530980)
+57671212000; 36602305900; 57215282600; 55923283100; 6603530980
+Cloud-based cross-platform collaborative augmented reality in flutter
+(2022) Frontiers in Virtual Reality, 3, art. no. 1021932, Cited 1 times.
+DOI: 10.3389/frvir.2022.1021932
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85143334690&doi=10.3389%2ffrvir.2022.1021932&partnerID=40&md5=3e80fe9fb43cd2c2fa463546cf927faa
+
+DOCUMENT TYPE: Article
+PUBLICATION STAGE: Final
+OPEN ACCESS: All Open Access; Gold Open Access
+SOURCE: Scopus
+
+Sonkoly B., Nagy B.G., Dóka J., Kecskés-Solymosi Z., Czentye J., Formanek B., Jocha D., Gerő B.P.
+AUTHOR FULL NAMES: Sonkoly, Balázs (6505667403); Nagy, Bálint György (57211779184); Dóka, János (57203145693); Kecskés-Solymosi, Zsófia (58261341300); Czentye, János (55553864000); Formanek, Bence (57188803237); Jocha, Dávid (6506495406); Gerő, Balázs Péter (6508245886)
+6505667403; 57211779184; 57203145693; 58261341300; 55553864000; 57188803237; 6506495406; 6508245886
+An Edge Cloud Based Coordination Platform for Multi-user AR Applications
+(2024) Journal of Network and Systems Management, 32 (2), art. no. 40, Cited 1 times.
+DOI: 10.1007/s10922-024-09809-9
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85189073461&doi=10.1007%2fs10922-024-09809-9&partnerID=40&md5=7b02cb5646102fa0a7050f80e25dadc7
+
+DOCUMENT TYPE: Article
+PUBLICATION STAGE: Final
+OPEN ACCESS: All Open Access; Hybrid Gold Open Access
+SOURCE: Scopus
+
+Chen J., Ramakrishnan K.K., Dhakazl A., Ran X.
+AUTHOR FULL NAMES: Chen, Jiasi (55547087600); Ramakrishnan, K.K. (7101600362); Dhakazl, Aditya (58795520800); Ran, Xukan (57195930426)
+55547087600; 7101600362; 58795520800; 57195930426
+Networked Architectures for Localization-Based Multi-User Augmented Reality
+(2023) IEEE Communications Magazine, 61 (12), pp. 104 - 110, Cited 2 times.
+DOI: 10.1109/MCOM.003.2300275
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85181535487&doi=10.1109%2fMCOM.003.2300275&partnerID=40&md5=581aa35bb2ec9fb42eb8c39e0149ea2a
+
+DOCUMENT TYPE: Article
+PUBLICATION STAGE: Final
+OPEN ACCESS: All Open Access; Bronze Open Access
+SOURCE: Scopus
+
+Soh L., Burke J., Zhang L.
+AUTHOR FULL NAMES: Soh, Lemuel (57224702651); Burke, Jeff (9042957400); Zhang, Lixia (8376915500)
+57224702651; 9042957400; 8376915500
+Supporting augmented reality: Looking beyond performance
+(2018) VR/AR Network 2018 - Proceedings of the 2018 Morning Workshop on Virtual Reality and Augmented Reality Network, Part of SIGCOMM 2018, pp. 7 - 12, Cited 9 times.
+DOI: 10.1145/3229625.3229627
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85056420548&doi=10.1145%2f3229625.3229627&partnerID=40&md5=0a87e09fa468c29f3d0b0f6cc3e77626
+
+DOCUMENT TYPE: Conference paper
+PUBLICATION STAGE: Final
+OPEN ACCESS: All Open Access; Bronze Open Access
+SOURCE: Scopus
+
+Naqvi N.Z., Moens K., Ramakrishnan A., Preuveneers D., Hughes D., Berbers Y.
+AUTHOR FULL NAMES: Naqvi, Nayyab Zia (55515373700); Moens, Karel (57076535000); Ramakrishnan, Arun (55515114300); Preuveneers, Davy (8850023700); Hughes, Danny (56111496900); Berbers, Yolande (6602697613)
+55515373700; 57076535000; 55515114300; 8850023700; 56111496900; 6602697613
+To cloud or not to cloud: A context-aware deployment perspective of augmented reality mobile applications
+(2015) Proceedings of the ACM Symposium on Applied Computing, 13-17-April-2015, pp. 555 - 562, Cited 12 times.
+DOI: 10.1145/2695664.2695880
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-84955462168&doi=10.1145%2f2695664.2695880&partnerID=40&md5=76c9cb8648d971f6aac25b7c7937b259
+
+DOCUMENT TYPE: Conference paper
+PUBLICATION STAGE: Final
+SOURCE: Scopus
+

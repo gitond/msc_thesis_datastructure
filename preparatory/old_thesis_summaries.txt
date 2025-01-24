@@ -1,0 +1,107 @@
+Old Master's Thesis from the University of Turku on the topic of VR
+
+Title: Virtual Reality in (Finnish and British) Museums: A study into its use, role, effectiveness and potential
+Writer: Laura Jones
+Link: https://www.utupub.fi/bitstream/handle/10024/152937/Virtual_Reality_in_Finnish_and_British_Museums_A_study_into_its_use_role_effectiveness_and_potential.pdf
+Research Questions:
+	- What has Virtual Reality technology (VR) been used for in the current decades?
+	- What is the role and place of VR in museums currently?
+	- How did VR become a part of museums' repertoire?
+	- What is the ideal use of VR in the conext of museums?
+	- Will the use of VR evolve in the future?
+	- How effective is the usage of VR in museums?
+	- How is VR being used in museums and what are some examples of this currently in use in the UK & Finland?
+	- How is VR use in museums being influenced by museum size and resource availability?
+	- Has the use of VR has increased the visitors in numbers, created more revenue, or resulted into positive feedback for the museums?
+	- How has VR lead to partnerships between museums and technology companies?
+Research Methodologies:
+	- Literature review
+		- academic materials, scientific articles
+			- Of different fields also where applicable (VR was a new enough field in 2021 whan this was published that there wasn't always relevant material available)
+		- research done by the museums themselves on this topic
+	- Own research
+		- talking with museum representatives
+		- data obtained through observations, lectures, seminars, informal talks, questionnaires, documents, artefacts
+			- some of these "personal in nature"
+	- Qualitative research
+	- Focus on specific museums due to willingness to cooperate & available resources
+		- Victoria & Albert Museum
+		- National Museum of Finland
+		- Helsinki City Museum
+
+Title: Attitude Processes and User Experiences in Virtual Reality Simulations : Attitude Transitions in Immersive and Non-Virtualized Virtual Reality Machine Gun Simulators
+Writer: Fairuz Ishrat Bhuiyan
+Link: https://www.utupub.fi/bitstream/handle/10024/178653/Bhuiyan_Fairuz_UTU-Diplomityo-Thesis.pdf
+Research Questions:
+	- How does a virtual reality (VR) based simulation affect the user?
+	- How immersed do VR simulatos users become in the virtual world?
+	- Are conscripts that perform better with a VR based anti-air machine gun simulator more suited for anti-aircraft duties?
+	- Is simulation based training the best option to prepare conscripts for real battle scenarios?
+	- Is VR-based simulation more immersive than traditional simulation?
+	- Does VR-based simulation lead to better performance than traditional simulation?
+	- Will the conscripts training on both traditional and VR-based simulators find them different in terms of usability and training performance?
+	- Will conscripts that recieved more training with an assault rifle perform better in anti-aircraft machine gun simulation?
+	- Do high immersive tendencies lead to users becoming more absorbed into simulation?
+	- Does the VR-based simulator have a less heavy workload than a traditional simulator?
+	- Will the subjects be more emotially immersed in the VR simulator than the traditional simulator?
+	- Will the subjects feel psychological and physiological differences between the VR and the traditional simulators?
+	- Will the subjects' sense of presence will be more intense in the VR simulation than in the traditional simulator?
+	- Are the subjects' immersive tendency score and performance related to a high sense of presence in the VR simulation?
+	- Do the users of the VR simulator get more simulation sickness symptoms than users of the traditional simulator?
+Research Methodologies:
+	- Researching with human subjects
+		- Two groups
+			- Different amounts of training (time)
+			- Both groups train with & without simulators
+			- Both simulators have the same aim (train soldiers in shooting down helicopters in a 5 min simulator window)
+			- Group A
+				- classical assault rifle simulator gun
+			- Group B
+				- VR based anti-aircraft machine gun simulator
+			- Groups compared, analyzed
+	- Measured factors
+		Control			| Sensory			| Distraction		| Realism
+		--------------------------------------------------------------------------------------------------------
+		Degree of control	| Sensory modality		| Isolation		| Scene realism
+
+		Immediacy of control	| Environmental 		| Selective attention	| Information consistent
+					| richness			|			| with the objective 
+					|				|			| world
+
+		Anticipation of		| Multimodal			| Interface awareness	| Meaningfulness of
+		events			| presentation			|			| experience
+
+		Mode of control		| Consistency of		|			| Separation anxiety/
+					| multimodal information	|			| disorientation
+
+		Physical		| Degree of movement		|			|
+		environment		| perception Active		|			|
+		mosifiability		| search			|			|
+
+	- Measurement tools
+		- Presence Questionnaire (PQ) measuring the subjects' sense of presence in a virtual environment
+			- Based on a review of existing literature
+		- Immersive Tendencies Questionnaire (ITQ) measuring the subjects' tendency to get immersed in situations
+			- Designed to identify individual differences
+		- Empatica E4 wristband
+			- used to measure: electrical conductivity of skin, heart rate, temperature, acceleration of hand movement
+	- Collected data
+		- Background information
+			- Age, gender, military rank, military unit
+			- Gaming experience. Especially: VR, shooter games
+			- Individual differences in personality & media usage
+			- Immersive tendencies
+		- On the experience with the simulators
+			- Performance in simulator
+			- NASA Task Load Index
+			- Subjective User Experiences
+			- Simulator Sickness
+			- Presence
+
+Title: Immersive Virtual Reality for Experiential Learning
+Writer:	Marco Cau
+Link: https://www.utupub.fi/bitstream/handle/10024/151594/Cau_Marco_Thesis.pdf
+Research Question: Why VR and immersive technologies are viable tools to deliver experiential learning?
+Research Methodologies:
+	- Systemic literature review
+	- Article search, selection, coding & data analysis guided by frameworks.

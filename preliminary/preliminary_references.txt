@@ -1,0 +1,47 @@
+Preliminary reference list
+for MSc Thesis
+by Botond Ortutay
+
+Format:
+Number.
+Source: (Authors, year, title, link)
+Topic: (Chapter within toc)
+Justification: (2 sentence description for why this was chosen)
+Potential issues: (List of potential issues if any)
+---------------------------------------------------
+
+1.
+Source: Taylor C. & Pasquale J., 2010, Towards a proximal resource-based architecture to support augmented reality applications, https://www.researchgate.net/publication/224170990_Towards_a_Proximal_resource-based_architecture_to_support_augmented_reality_applications
+Topic: 3.5. On Client-Server Architecture in AR Applications
+Justification: An actual example of somebody designing a system with an AR frontend and dataprocessing happening in the background. Even though it is not an exact match of what we want to do (middleware based approach), it's probably worthe mentioning.
+Potential issues: Old, Conference paper
+
+2.
+Source: Carius L. et al, 2022, Cloud-based cross-platform collaborative augmented reality in flutter, https://www.frontiersin.org/journals/virtual-reality/articles/10.3389/frvir.2022.1021932/full
+Topic: 3.4.2. AR Software, 4.3. Proposed Architecture
+Justification: This is basically a description of a development tool (with performance benchmarks). This is one potential tool we can use to actually build the thing. Furthermore it has an overview of AR-app development & it's recent.
+Potential issues: ---
+
+3.
+Source: Sonkoly B. et al, 2024, An Edge Cloud Based Coordination Platform for Multi-user AR Applications, https://link.springer.com/article/10.1007/s10922-024-09809-9
+Topic: 3.5. On Client-Server Architecture in AR Applications, 4.2. Perceived Challenges, 4.3. Proposed Architecture
+Justification: Their architecture is quite different from what we want (focus on edge computing & robotics; still very much worth studying in 4.3.), however their benchmarks are beautiful and should absolutely influence 4.2. Furthermore this is really high quality work and very cutting edge too (from this year).
+Potential issues: ---
+
+4.
+Source: Chen J. et al, 2023, Networked Architectures for Localization-Based Multi-User Augmented Reality, https://ieeexplore.ieee.org/document/10375692
+Topic: 2. Detailed Problem Description, 4.1. Problem Description
+Justification: This article is about looking at a multitude of real-world problems and based on these problems' unique characteristcs suggesting potential cloud AR-architectures. Also one of the considered problems is training in the medical field.
+Potential issues: The overwhelming focus on multiuser and edge computing means that the architectures described here are not the best fit for our specific problems.
+
+5.
+Source: Soh L & Burke J & Zhang L, 2018, Supporting augmented reality: Looking beyond performance, https://dl.acm.org/doi/10.1145/3229625.3229627
+Topic: 3.1. Client-Server Architectures
+Justification: Discusses web/cloud development from an AR perspective
+Potential issues: Relevance, Quality, Age
+
+6.
+Source: Naqvi N.Z. et al, 2015, To cloud or not to cloud: A context-aware deployment perspective of augmented reality mobile applications, https://www.researchgate.net/publication/280247984_To_Cloud_or_Not_to_Cloud_A_Context-aware_Deployment_Perspective_of_Augmented_Reality_Mobile_Applications
+Topic: 2. Detailed Problem Description, 4.1. Problem Description, 4.3. Proposed Architecture
+Justification: This article basically discusses whether or not integrating cloud features in an AR mobile app is worth it or not. 
+Potential issues: This might include a lot of relevant insights or it might not. I couldn't decide by reading the abstract and scrolling through the article. The work itself appears high quality and it "borders" relativity to this project. However it's also quite old and might be outdated.
