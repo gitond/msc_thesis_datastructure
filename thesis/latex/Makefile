@@ -1,5 +1,7 @@
 all:
-	latexmk -pdf -shell-escape thesis.tex
+	pdflatex thesis.tex
+	biber thesis
+	pdflatex thesis.tex
 
 clean:
 	latexmk -CA thesis.tex
