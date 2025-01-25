@@ -5,40 +5,27 @@ Preliminary table of contents
 1.2. Research Questions
 1.3. Methodology Overview
 
-(2. Detailed Problem Description ???)	THIS OR 4.1.
+(2. Background ???)	IF NOT COVERED BY 1.1.
 
-3. Theoretical Background on Technologies
-3.1. Client-Server Architectures
-3.2. Computer Vision (CV)
-3.3. Client-Server Architecture with AI Integration
-3.4. Augumented Reality (AR)
-3.4.1. AR Hardware
-3.4.2. AR Software
-3.5. On Client-Server Architecture in AR Applications
+3. Literature review
+3.1. Client-Server Architectures	}	}
+3.2. Computer Vision (CV)		}	}	COMBINE IF NEEDED
+3.3. Augumented Reality (AR)			}
+3.4. Prototypes Similar to Ours
 
-4. Designing an Architecture for a Software System with AR and CV
-(4.1. Problem Description ???)	THIS OR 2.
-4.2. Perceived Challenges
-4.2.1. Battery Times
-4.2.2. Latencies
-...... ...
-4.2.n. xxx
-4.3. Proposed Architecture
+4. Architecture Description
+4.1. Perceived Challenges
+	- DO THIS BASED ON Ch.3. LITERATURE REVIEW
+	- MENTION CHALLENGES ENCOUNTERED BY OTHERS & POSSIBLE SOLUTIONS IF OFFRRED
+	- AS MANY SUBCHAPTERS AS NEEDED
+4.2. Proposed Architecture
 figure: Visual Representation of Architecture
 
 (5. Implementing an Architecture for a Software System with AR and CV ???)
 
-6. Theoretical Background on Feasibility
-6.1. Economic	MAIN FOCUS!!!
-(6.2. Legal ???)
-6.3. Operational
-6.4. Scheduling
-6.5. Cost-Benefit Analysis
+(6. Usability ???)
 
-7. Analyzing Feasibility
-7.1. Technological Feasibility
-7.2. Economical Feasibility
-7.3. Cost-Benefit Analysis
+(7. Feasibility ???)
 
 8. Conclusion and summary
 8.1. Overwiev of Results

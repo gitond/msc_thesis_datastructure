@@ -14,7 +14,7 @@ Writing to-do:
 
 Literature review:
  - **IMPORTANT**: <mark>CHOOSE</mark> at least a few articles **from** <mark>preliminary references</mark> & <mark>research to-do</mark> as high priority sources (at least 11-15; try to look at other topics too (architecture, AI/CV, AR)), mark these somehow (could move to Bibliographia.bib already) and start literature review from these
-- **IMPORTANT**: for all high priority sources: read and take notes.
+ - **IMPORTANT**: for all high priority sources: read and take notes.
 
 Additional sources needed:
  - Additional sources: 3.3. Client-Server Architecture with AI Integration
@@ -24,7 +24,6 @@ Development to-do:
  - Quickly familiarize yourself with ARKit/ARCore
 
 Structural changes:
- - **IMPORTANT** <mark>UPDATE</mark> structural changes discussed in last guidance session to toc
 
 Notes:
  - On "half relevant" articles: Do they include data (especially UX-data) you could use?
