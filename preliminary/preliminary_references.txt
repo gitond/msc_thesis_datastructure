@@ -65,36 +65,36 @@ Justification: This discusses exactly the topics I want CV, AR, how they work to
 Potential issues: Literature review. Also: kinda old (2022)
 
 10.
-Source: Minaee S. & Liang X. & Yan S, 2022, Modern Augmented Reality: Applications, Trends, and Future Directions
+Source: Minaee S. & Liang X. & Yan S, 2022, Modern Augmented Reality: Applications, Trends, and Future Directions https://arxiv.org/abs/2202.09450
 Topic: 3.2. Computer Vision (CV), 3.4. Augumented Reality (AR)
 Justification: Best source on building an AR app with CV technology underneath. Also provides technical examples.
 Potential issues: ---
 
-11.
+11. IMPORTANT
 Source: Pylvänäinen J. W. et al., 2023, Supporting Microscopy Learning with Ocul-AR, a Virtual and Augmented Reality-Powered Mobile Application, https://ceur-ws.org/Vol-3393/TELL23_paper_7227_3.pdf 
 Topic: 2. Detailed Problem Description, 3.4. Augumented Reality (AR)
 Justification: A situation where an AR application is used to teach the use of a device, similar to our use case. Also: Made in Turku!!! I can potentially even contact the people behind this project for further questions etc
 Potential issues: ---
 
-12.
+12. IMPORTANT
 Source: Estrada J. et al., 2022, Deep-Learning-Incorporated Augmented Reality Application for Engineering Lab Training https://www.mdpi.com/2076-3417/12/10/5159
 Topic: 2. Detailed Problem Description, 3.4. Augumented Reality (AR), 4.3. Proposed Architecture
 Justification: This is very very similar to what we're trying to do, up to a frightening level. They even have a proposed architecture. A very noteworthy and high-quality paper.
 Potential issues: ---
 
-13.
-Source: Van Gestel F. et al., 2024, Augmented reality guidance improves accuracy of otrhopeic drilling procedures, https://www.nature.com/articles/s41598-024-76132-3 (Authors, year, title, link)
+13. IMPORTANT
+Source: Van Gestel F. et al., 2024, Augmented reality guidance improves accuracy of otrhopeic drilling procedures, https://www.nature.com/articles/s41598-024-76132-3 
 Topic: 3.4. Augumented Reality (AR)
 Justification: An example of an application where AR is used to guide a user with a procedure. Very recent (2024 October!!) and published in a respected journal (Nature)
 Potential issues: Relevancy??
 
-14.
+14. IMPORTANT
 Source: Reyes A. M. et al., 2016, A mobile augmented reality system to support machinery operations in scholar environments, https://onlinelibrary.wiley.com/doi/full/10.1002/cae.21772
 Topic: 3.4. Augumented Reality (AR)
 Justification: An example of an application where AR is used to train people on machinery. Appears to be high quality.
 Potential issues: Old (2016), Relevancy??
 
-15.
+15. IMPORTANT
 Source: Lin Y.T. & Lee I.J., 2020, Development of an Augmented Realiy System Achieving in CNC Machine Operation Simulations in Furniture Trial Teaching Course, https://link.springer.com/chapter/10.1007/978-3-030-49698-2_9
 Topic: 3.4. Augumented Reality (AR)
 Justification: An example of an application where AR is used to train people on machinery. Also touches on the development of said system.
