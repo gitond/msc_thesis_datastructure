@@ -34,6 +34,9 @@
 > "Projection-based AR: Projection-based AR (also known as projection mapping and augmented spatial reality) is a technique that does not require the use of head-mounted or hand-held devices. This method allows augmented information to be viewed immediately from a natural perspective. Using projection mapping, projection-based AR turns an uneven surface into a projection screen."
 (Estrada et al., 2022)
 
+> "Vuforia’s Model Target is an example of outlining-based AR. Vuforia is a platform that enables developers to quickly incorporate AR technology into their applications. Model Targets allow apps to recognize and track real-world objects based on their shape"
+(Estrada et al., 2022)
+
 ### 3.4 Prototypes Similar to Ours
 > "we developed a mobile application, Ocul-AR, for microscopy teaching and support" 
 (Pylvänäinen et al., 2023)
@@ -92,6 +95,12 @@
 > "In this paper, we compared RCNN and MobileNet-SSD v2 [26] and observed that MobileNet-SSD v2 has better performance for real-time applications in terms of speed when implemented on mobile devices. It is important to note that MobileNet-SSD v2 is a lightweight deep neural network architecture designed specifically for mobile devices with high recognition accuracy. Therefore, we employed MobileNet-SSD v2 in this work."
 (Estrada et al., 2022)
 
+> "In our project, we built a superimposition-based AR app. We built user interfaces on top of lab equipment, allowing step-by-step instructions to be incorporated into the application for users to understand and learn how to use specific equipment."
+(Estrada et al., 2022)
+
+> "The inference will classify and localize lab equipment that has been targeted with the mobile camera. When an object is detected, a user interface (UI) button appears, indicating that an AR-guided tutorial is available for the object. Then, an AR scenario will be loaded, allowing students to use their mobile camera to aim at a specific target. Following that, a 3D object will superimpose on top of the physical object, activating UI panels with instructions on how to use the equipment"
+(Estrada et al., 2022)
+
 ## 4 Architecture Description
 
 ### 4.1 Perceived Challenges
@@ -112,6 +121,18 @@ This could be displayed as a table for example
 (Estrada et al., 2022)
 
 > "The Unity3D game engine is used as the primary development tool for this tutorial to integrate DL and AR frameworks and create immersive scenarios"
+(Estrada et al., 2022)
+
+> "Unity 3D combines the output of these systems by inferring the object detection model with OpenCV and using an AR dataset target with a Vuforia Engine. Furthermore, Unity 3D enables the development of interactive user interfaces"
+(Estrada et al., 2022)
+
+<img src="https://www.mdpi.com/applsci/applsci-12-05159/article_deploy/html/images/applsci-12-05159-g002-550.jpg">
+(Estrada et al., 2022)
+
+> "The development framework was integrated with a MobileNet-SSD DL model and a marker-less superimposition AR that activates immersive modules containing 2D/3D objects"
+(Estrada et al., 2022)
+
+> "MobileNet-SSDv2 [26] architecture was used to build a deep neural network model to detect electrical lab equipment. The architecture comprised MobileNet-v2 as the backbone network, an SSD detector, and feature pyramid network (FPN)"
 (Estrada et al., 2022)
 
 ## 6 Usability
