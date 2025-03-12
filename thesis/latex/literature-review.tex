@@ -7,3 +7,73 @@
 \section{Augmented Reality (AR)               \}} \label{ar}
 
 \section{Prototypes Similar to Ours} \label{protos}
+Before designing and describing our own software architecture it is 
+worthwhile to look at applications other people have developed that solve a 
+problem similar to ours. A great example of such an application is the work 
+done by \textcite{pylvanainen}. \par
+	The work conducted by \textcite{pylvanainen} started from a simple
+observation: They coulnd't find any mobile apps for microscopy education that 
+incorporated AR and Virtual Reality (VR) features and step-by-step guidance. 
+They then sent out a needs assesment survey to students to map out demand for 
+such a software and found that 70\% of the respondents showed interest in 
+using such an app in their microscopy studies.\cite{pylvanainen} They then 
+outlined goals for such an app and started to develop it. 
+\textcite{pylvanainen} state that their application should:
+\begin{enumerate}
+	\item Be a useful tool in teaching microscopy
+	\item Help its users to operate a microscope
+	\item Be a helpful tool with troubleshooting microscopy related issues
+	\item Be a tool that could be used to revive microscopy knowledge after a long pause in practicing microscopy skills
+\end{enumerate} \par
+	The app developed by \textcite{pylvanainen} consists of three 
+sections: "Teach me microscopy", "Help me at the microscope" and "Help me to 
+troubleshoot". What's relevant to this thesis is under "Help me at the 
+microscope". In that section there is the option to view a 3D-model of a 
+specific microscope commonly used in laboratories (Leica DM RXA microscope). 
+Interactive step-by-step tutorials are also available for this microscope on 
+various things, such as microscopy parts, setting optimal Köhler alignment 
+and focusing the microscope on the sample. These tutorials are also usable 
+outside the virtual microscope in the real world as the "Help me at the 
+microscope"-section also acts as a marker-based 
+AR-environment.\cite{pylvanainen} AR-markers put on the microscopes can also 
+help students find different parts of the microscope and learn of their 
+functions. This system can also be used to integrate microscope-specific 
+information into this AR-environment.\cite{pylvanainen} \par
+	\textcite{pylvanainen} also conducted a questionnaire-based usability 
+study on the app they developed, and found that using the app during 
+microscopy education increased the students' confidence at later using the 
+same microscope independently, without assistance. Furthermore 64\% of the 
+students reported that the app definitely helped them at learning microscopy 
+and 90\% of them reported that the app helped them recall microscopy skills 
+later.\cite{pylvanainen} \par
+	Another quite similar project is the work carried out by 
+\textcite{estrada}. Their work was built on a simple goal: To enable students 
+to have a better experience when learning how to use electrical engineering 
+laboratory equipment. They aimed to do this by offering the students AR-based 
+tutorials for various electrical engineering lab equipment, and by using Deep 
+Learning (DL) methods to detect such equipment in the 
+laboratory.\cite{estrada} The long term goal of this project was to create a 
+framework that could be later used to easily develop interactive smartphone 
+apps for different laboratory devices integrating this 
+concept.\cite{estrada} \par
+	Essentially \textcite{estrada} developed a superimposition-based 
+AR-app with an integrated DL-model to be used for object detection. This 
+application can be used for a template to create any AR-based tutorial for 
+any device. Creating a tutorial for a device using this framework consists of 
+three steps of work:
+\begin{enumerate}
+	\item Training the DL-model to recognize the device
+	\item Creating an Augmented Reality User Interface (AR-UI) of the device, consisting of a 3D-model and User Interface (UI) panels
+	\item Creating step-by-step instructions that can be displayed using the AR-UI defined in the first step.
+\end{enumerate} \par
+	On top of designing and defining such a framework, \textcite{estrada} 
+actually developed an application using it. In this application the DL-model 
+was trained to detect various types of multimeters, oscilloscopes, wave 
+generators and power supplies. They also created AR-UIs and step-by-step 
+tutorials for using real multimeters.\cite{estrada}\par
+	The application logic of the app by \textcite{estrada} is as follows: 
+First the DL-model detects (so classifies and localizes) the equipment. Next 
+if a tutorial is available for that equipment, the UI notifies the user of this.
+If the user decides to view the tutorial, the AR-based tutorial gets loaded 
+and the AR-UI gets superimposed on top of the real object. Then UI-panels are 
+used to display the tutorial content. \par
