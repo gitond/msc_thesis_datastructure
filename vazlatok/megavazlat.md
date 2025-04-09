@@ -304,6 +304,77 @@ FM and IT: different kind of Vuforia AR-markers
 > "Finally, we detected that students can put a lot of attention in the AR system and ignore important parts of the experience (attention tunneling effect)."
 (Reyes et al, 2016)
 
+>"this research used augmented reality (AR) technology to simulate the complete operation flow and processing information of CNC processing machines, and combined the practical teaching courses to deepen the students’ understanding of CNC machine operation"
+(Lin & Lee, 2020)
+
+>"In this study, a total of ten participants were recruited to conduct AR system operation experiments"
+(Lin & Lee, 2020)
+
+>"The follow-up verification was conducted through real CNC machine operation and by filling in the System Usability Scale (SUS) to evaluate the experience feedback after using the AR-CNC training system"
+(Lin & Lee, 2020)
+
+>"due to the limited number of machines and insufficient space in teaching, students can only learn the knowledge and application of CNC machining by rotating operation or by watching the operation of teachers"
+(Lin & Lee, 2020)
+
+>"AR technology can be applied to the simulated operation of CNC machines. Students can use a personal tablet computer to perform a two-stage operation simulation in the factory classroom and the CNC machine. The built-in virtual imaging technology can superimpose virtual 3D machining workpieces on the physical CNC machine"
+(Lin & Lee, 2020)
+
+>"In addition, in the process of machine processing, a large amount of processing materials and machine tool wear are required, which results in the students only creating a piece of furniture in a group in order to save materials and reduce the storage space of finished furniture products, and the students cannot conduct multiple processing or diversified furniture production trials"
+(Lin & Lee, 2020)
+
+>"However, under the application of AR or virtual reality (VR), the machining process and machine operation can be simulated through a virtual CNC machine to simulate the actual machining situation"
+(Lin & Lee, 2020)
+
+>"The simulated operation process can solve many problems, including:"
+...
+"4) the 3D machining workpieces created by the processing software do not correspond to the actual machine during processing in space, and students cannot see the operation relationship and correspondence between the processing object and the software or the machine in real time"
+(Lin & Lee, 2020)
+
+>"All the processing details include different processes and methods, such as turning over processing, mold hole processing, and so on. It is difficult to express and explain concepts in a traditional 2D video image, but AR solves this problem. AR can especially allow students to superimpose 3D objects in the space of the CNC operating machine."
+(Lin & Lee, 2020)
+
+>"Students are unfamiliar with the use of machining tools and methods and it is difficult to directly see the relationship between the 2D tool path and the 3D machining workpiece). AR can effectively help learners understand the scale relationship of a 3D machining space, including the relationship between the machining machine and the workpiece (furniture parts). It can let students understand how to turn the surface or process the surface by superposing the virtual 3D processing workpiece onto solid wood or the solid workpiece itself. That is to say, the virtual object constructed by AR provides additional auxiliary information to strengthen the students’ cognition of the concept of workpiece turnover and the 3D processing space"
+(Lin & Lee, 2020)
+
+>"This study recruited ten students with experience in operating CNC to conduct the AR system operation"
+(Lin & Lee, 2020)
+
+> "The participants had previous CNC machine operation experience but were still unfamiliar with CNC machine operation procedures"
+(Lin & Lee, 2020)
+
+>"During the experiment, the students conducted AR machine operation training in groups, presented the AR system in the form of a tablet computer, and used the finished furniture product example of an online open CNC furniture company as the demonstration material for CNC machine learning"
+(Lin & Lee, 2020)
+
+>"The AR-CNC training system was developed to allow the students to learn independently and allow the operation of the machine and the control console to both be more clearly understood and practiced. The students experienced the operation of the CNC machine and the content of the furniture processing workpiece through the tablet computer in both the general classroom space and the actual factory space"
+(Lin & Lee, 2020)
+
+>"The AR-CNC training system could display the spatial relationship of the 3D virtual processing object and the real machine by using a tablet or a hand-held device. At the same time, it was similar to the environment in which the real machine operated, and it was in the actual teaching field show in Fig. [4](https://link.springer.com/chapter/10.1007/978-3-030-49698-2_9#Fig4)."
+(Lin & Lee, 2020)
+
+>"the operation process is shown in Fig. [5](https://link.springer.com/chapter/10.1007/978-3-030-49698-2_9#Fig5)."
+(Lin & Lee, 2020)
+
+>"Ten participants first operated the CNC woodworking engraving machine using a tablet. The course was mainly divided into the following six unit topics: 1) CNC machine introduction; 2) CNC machining application examples; 3) introduction of the AR teaching machine interface operation and simulation; 4) AR machine simulation processing and CNC machining operation practice; 5) making knock-down furniture (KD) furniture; and 6) finished products and other complete digital manufacturing processes. After training, the ten subjects were given the System Usability Scale (SUS) questionnaire to offer feedback for the analysis of the results and data."
+(Lin & Lee, 2020)
+
+>"In the questionnaire survey of this study, the researcher scored the system usability scale of AR-CNC system and established five different evaluation dimensions after expert interviews, including “Understanding of Machining Procedures”, “Time of Operation”, “Accuracy of Operation”, “Sequence and Information of the CNC Operation Steps”, “Understanding of the Interface Knowledge of the CNC Cutting Machine Center”, and other evaluation aspects. Each facet had five sub-questions for a total of twenty questions, and each topic was given a score of 1–7 (in which 1 represented high difficulty and 7 represented low difficulty)."
+(Lin & Lee, 2020)
+
+>"The results showed that in the aspect of Understanding of Machining Procedures, the participants believed that the AR-CNC system could improve their understanding of workpiece processing (4.86 points). In the aspect of Time of Operation, the participants thought that the AR-CNC system could make CNC learning more efficient (4.8 points).
+<br/>
+In the aspect of Sequence and Information of the CNC Operation Steps, the participants thought that the AR-CNC system could let them complete every operation step and task (5.52 points). In the aspect of Accuracy of Operation, the participants thought that the AR-CNC system could help them learn and improve their learning motivation (4.98 points). Finally, in the aspect of Understanding of the Interface Knowledge of the CNC Cutting Machine Center, the participants believed that the AR-CNC system could help to understand the functions corresponding to machine processing (5.6 points)."
+(Lin & Lee, 2020)
+
+>"The research results showed that the students could understand the relationship between workpieces and methods on the CNC machining through the AR system and could operate virtual machines through AR simulation"
+(Lin & Lee, 2020)
+
+>"After the AR machine operation training, this study confirmed that using the AR system for training had a number of advantages. First, through the AR teaching system, the students could understand the complete processing procedures and steps of woodworking furniture machine operation"
+...
+"Second, using AR for interactive learning allowed the students to smoothly integrate virtual and real concepts between the real processing operation environment and virtual 3D processing objects"
+...
+"Third, the AR system had a simple operation mode, and the students did not need to be instructed by the teacher. Even if the trainees did not have any previous experience with CNC processing machines, they could quickly understand the operation process and processing concepts. The trainees could learn and operate independently without imagination how to use CNC processing machine. Fourth, the AR system allowed the students to practice repeatedly and avoid unnecessary material waste in actual processing as well as safety concerns in operation. Fifth, the virtual 3D picture of the CNC cutting path could be previewed through AR, and the processing stage and additional production information could be understood"
+(Lin & Lee, 2020)
+
 ## 4 Architecture Description
 
 ### 4.1 Perceived Challenges
@@ -373,6 +444,12 @@ This could be displayed as a table for example
 
 > "The application can run on devices with Android operating system 4.2.1 and up."
 (Reyes et al, 2016)
+
+> "The AR-CNC training system in Fig. [3](https://link.springer.com/chapter/10.1007/978-3-030-49698-2_9#Fig3) mainly used a tablet computer as a carrier for teaching and operation"
+(Lin & Lee, 2020)
+
+>"In the AR-CNC training system, Adobe Illustrator was used to draw 2D identification cards, and software such as C4D/3D MAX was used to make 3D animations. The system was developed through Unity and Vuforia to integrate and define actions"
+(Lin & Lee, 2020)
 
 ## 6 Usability
 
