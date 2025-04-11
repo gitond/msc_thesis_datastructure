@@ -1,6 +1,25 @@
+
 ## 3 Literature review
 
 ### 3.1 Client-Server Architectures
+
+> "Deep learning is capable of making the AR/MR systems smarter. However, to implement deep learning-based object detection, some obvious considerations need to be considered when choosing between a remote server or a local device. Fig. 5 shows the two processes for the object detection computation. This section discusses some advantages and disadvantages of each approach and explains some use cases from the literature. Capability, computation cost, complexity, and size of the model are important factors in choosing the computation method."
+(Ghasemi et al, 2022)
+
+> "For the remote server-based computation, the client/user (i.e., AR device) captures frames and sends them to the remote server; then the model processes the data on the server. Then, the model sends the output back to the client/user. Network connection and delays are important factors during this process."
+(Ghasemi et al, 2022)
+
+> "Out of 69 studies collected for this review, 48 studies used cloud, edge, or GPU servers. 17 studies implemented their computation on the local AR devices, and 4 studies used both server and local devices for their computations."
+(Ghasemi et al, 2022)
+
+> "An android application to enable real-time AR was developed to perform object detection (Ran et al., 2017). They performed the object detection on both server and mobile devices and showed that factors affecting detection performance in these scenarios include model size, offloading decision, and video resolution. While the results using the server highly depend on the network condition, they concluded that offloading on the server improved frame rate and accuracy."
+(Ghasemi et al, 2022)
+
+> "Since time consumption is considered one of the main challenges of deep learning, studies used servers to increase the speed of computations even in the training process"
+(Ghasemi et al, 2022)
+
+> "Based on the reviewed studies and the tradeoffs each method entails, server-based object detection is more common and easier to implement."
+(Ghasemi et al, 2022)
 
 ### 3.2 Computer Vision (CV)
 > "Deep learning (DL), a sub-field of machine learning (ML), embraces artificial neural networks (ANN), which are algorithms inspired by the structure and function of the human brain"
@@ -11,6 +30,78 @@
 
 > "In recent years, object detection methods such as the region-based convolutional neural network (RCNN) [22], you only look once (YOLO) [23], and single shot detector (SSD) [24] have been proposed."
 (Estrada et al., 2022)
+
+> "The final goal of deep learning-based object detection is to recognize and locate one or multiple objects in a specific frame."
+(Ghasemi et al, 2022)
+
+> "Deep learning-based object detection identifies the existing objects in an image or video and demonstrates where they are located (i.e., object localization) and which category they belong to (i.e., object classification)"
+(Ghasemi et al, 2022)
+
+> "Furthermore, image segmentation can be applied to assign particular class labels to each pixel of an image (Chen et al., 2014). The performance of image segmentation is hampered when one image includes multiple objects of the same class. To overcome this issue, instance segmentation was proposed to provide a pixel- level localization distinction among the objects by discerning between the objects of the same class."
+(Ghasemi et al, 2022)
+
+> "Object detection is important in computer vision since it intelligently identifies and analyzes a scene in a given frame. Depending on the context, the detection task can be divided into several categories, such as face detection, pose detection, and pedestrian detection, all of which have been used in various applications such as autonomous vehicles (Y. Li et al., 2020), robotics (Choi et al., 2022; Zhou et al., 2022; Chen et al., 2008), and security (Jain, 2019)."
+(Ghasemi et al, 2022)
+
+> "Convolutional neural networks or CNNs in short are the simplest and most widely used deep learning algorithms for object detection. In CNN, first, an image should be divided into separate pieces. The algorithm takes each of these pieces as the input and after going through convolutions and pooling layers, it outputs the objects’ classes."
+(Ghasemi et al, 2022)
+
+> "Region-based Convolutional Neural Network or R-CNN works on a specific number of regions. The algorithm extracts a group of boxes or Regions of Interest (ROI) using proposal methods such as Selective Search (Uijlings et al., 2013) in the frame and checks whether an object exists in that specific region."
+(Ghasemi et al, 2022)
+
+> "To use the R-CNN algorithm, first, it is required to choose a pre-trained convolutional neural network. Then, based on the number of classes that need to be detected, the network's last layer should be re-trained. Next, the regions should be reshaped to be matched to the network input size. After retrieving the regions, typical classifiers such as Support Vector Machine (SVM) can be used to classify the objects. Finally, techniques such as linear regression are used to assign a bounding box to each predicted class."
+(Ghasemi et al, 2022)
+
+> "Fast R-CNN has been proposed to reduce the computational time of the R-CNN algorithm (Girshick, 2015). In this method, after taking an image as the input, a convolutional neural network should be applied to generate the ROI."
+(Ghasemi et al, 2022)
+
+> "YOLO takes an image as the input and divides it into S×S grids to predict if there is an object in that specific cell. Using this information, YOLO can predict the class of the objects. Unlike region- based methods, which require thousands of neural networks, in YOLO, the input frame passes through a single network evaluation."
+(Ghasemi et al, 2022)
+
+> "Traditional object detection in AR mainly consists of marker-based methods and statistical classifiers."
+(Ghasemi et al, 2022)
+
+> "One of the first studies on picture properties and pictorial pattern recognition was introduced by Rosenfeld and Pfaltz (1966), which elaborates on computer processing pictorial information techniques"
+(Ghasemi et al, 2022)
+
+> "Another early work in this field is an image processing approach proposed by decomposing an image into primitive pieces as a basis for reference component description (Fischler and Elschlager, 1973). These studies were primarily based on matching techniques and part-based algorithms. Later studies focused on classifiers"
+(Ghasemi et al, 2022)
+
+> "Recent research in AR leveraged deep learning-based object detection to alleviate such challenges, either replacing traditional object detection methods or as a complementary component to mitigate their shortcomings"
+(Ghasemi et al, 2022)
+
+> "The main difference between the detection based on neural networks and statistical classifiers is that the user designs the latter. In contrast, in neural networks, the algorithm should learn a large sample of data to represent the response variable successfully"
+(Ghasemi et al, 2022)
+
+> "Previous studies on deep learning-based object detection in AR are centered on several areas including but not limited to education, manufacturing, aerospace, and robotics. Among all areas, manufacturing, autonomous vehicles, and assistance are more common."
+(Ghasemi et al, 2022)
+
+> "Fig. 3 shows an example of object detection results using (a) a traditional method (Viola-Jones) and (b) a deep learning-based method (YOLO)."
+(Ghasemi et al, 2022)
+
+(Ghasemi et al, 2022) Fig. 3:
+<img src="https://i.imgur.com/hkrMXlj.jpeg">
+
+> "Since mobile devices have become relatively powerful to handle the computations near real-time, Tobías et al. (2016) proposed a method in which three lightweight CNN algorithms including AlexNet, GoogLeNet, and NIN are used for object recognition on GPU, CPU, and mobile devices."
+(Ghasemi et al, 2022)
+
+> "MobileNet v2 reduced CNN, was more appropriate for embedded devices, since it reduces the processing delay and is optimized for low-performance computing devices such as smart glasses with Android OS."
+(Ghasemi et al, 2022)
+
+> "This study showed that AR devices with embedded processing units could reach a decent amount of frames per second which is satisfactory if the task does not require too many movements"
+(Ghasemi et al, 2022)
+
+> "Other variations of deep learning algorithms can be used to comply with less powerful devices processors. In Corneli et al. (2019), a lightweight variation of YOLO (i.e., tiny YOLO v2) was used to perform the whole process on site and in real-time."
+(Ghasemi et al, 2022)
+
+> "In this section, we are going to review some of the recent prominent machine/deep learning algorithms developed for various AR applications. Many of the deep learning based models for AR applications are focused on:
+> - AR for Shopping (clothing try-on, makeup try-on)
+> - AR for Face/Body Transformations
+> - Tracking and Pose Estimation for AR Applications
+> - AR for 3D human Reconstruction
+> - Geometry Applications
+> - Scene Understanding and Reconstruction"
+(Minaee, Liang & Yan, 2022)
 
 ### 3.3 Augmented Reality (AR)
 > "AR superimposes three-dimensional objects on the physical world, requiring the use of mobile devices to create interactions. MR is a technology that combines the physical and digital worlds to create immersive physical experiences. Users interact with both the physical and digital worlds by using their five senses."
@@ -46,6 +137,30 @@
 > "Generally, a marker-based MAR requires a marker to register the position of a virtual object to be displayed into the user's perceptions of the real world. The system operates on five items: (1) computing device; (2) software; (3) marker label; (4) camera; and (5) display device."
 (Reyes et al, 2016)
 MAR = Mobile AR
+
+>"AR can be defined as an extended version of the physical world overlaid with digital content bridging the real and virtual environments. AR systems should accurately identify the real environment and its components to work best."
+(Ghasemi et al, 2022)
+
+> "There is a rapid growth of marker-based and markerless techniques to identify real-world content in AR systems"
+(Ghasemi et al, 2022)
+
+> "In marker-based AR, objects can be localized and tracked using physical markers attached to real objects."
+(Ghasemi et al, 2022)
+
+> "To overcome such limitations, markerless AR was proposed to recognize the real environment based on spatial geometry and does not require any trigger markers attached to the space. This technique often results in more accurate detections by obtaining the spatial map of the environment and its components. However, markerless applications need to recognize a textured flat surface to augment the digital content effectively."
+(Ghasemi et al, 2022)
+
+> "Deep learning techniques can overcome typical marker-based and markerless AR deficiencies and provide faster and more accurate detections."
+(Ghasemi et al, 2022)
+
+> "all AR devices consist of two elements: an image generating optical unit producing the virtual content, and a projection surface displaying the produced virtual content to the users."
+(Ghasemi et al, 2022)
+
+>"Augmented reality (AR) is an interactive experience of real-world environments, where the objects of the real world are enhanced by computer-generated perceptual information, sometimes across multiple modalities, including visual, auditory, haptic, and somatosensory"
+(Minaee, Liang & Yan, 2022)
+
+>"Hardware components for AR includes a processor, display, sensors and input devices. Modern mobile computing devices like smartphones and tablet computers contain these elements, making them suitable AR platforms"
+(Minaee, Liang & Yan, 2022)
 
 ### 3.4 Prototypes Similar to Ours
 > "we developed a mobile application, Ocul-AR, for microscopy teaching and support" 
@@ -379,6 +494,21 @@ In the aspect of Sequence and Information of the CNC Operation Steps, the partic
 
 ### 4.1 Perceived Challenges
 
+> "However, implementation issues on mobile devices remains a challenge that need to be optimized to reduce computational time and improve the effectiveness of the algorithms to make them more lightweight, fast, and accurate"
+(Ghasemi et al, 2022)
+
+> "In general, energy consumption is the primary concern for mobile AR applications"
+(Ghasemi et al, 2022)
+
+> "Additional work must be done to reduce the detection and segmentation execution time."
+(Ghasemi et al, 2022)
+
+> "Another challenge is dealing with the limitations of wearable devices such as HoloLens. HoloLens’s hardware is unpleasant and uncomfortable for prolonged durations of wear. Also, HoloLens has a limited battery capacity and sometimes requires continuous and stable access to the network."
+(Ghasemi et al, 2022)
+
+> "Another limitation that needs more improvement is detection accuracy when there is a reflective medium or a shiny surface such as glass in the environment. The detection also may fail when the object being scanned moves."
+(Ghasemi et al, 2022)
+
 ### (4.1.5 Technical details of prototypes)
 This could be displayed as a table for example
 
@@ -483,3 +613,4 @@ This could be displayed as a table for example
 
 > "In addition, improvements in AR glasses interaction can be added, by using speech recognition and voice navigation, instead of using the touch interface"
 (Reyes et al, 2016)
+
