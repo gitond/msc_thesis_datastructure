@@ -1,4 +1,3 @@
-
 ## 3 Literature review
 
 ### 3.1 Client-Server Architectures
@@ -101,6 +100,15 @@
 > - AR for 3D human Reconstruction
 > - Geometry Applications
 > - Scene Understanding and Reconstruction"
+(Minaee, Liang & Yan, 2022)
+
+> "In [9], Kiapour et al. collected a dataset for this application containing 404,683 shop photos collected from 25 different online retailers and 20,357 street photos, providing a total of 39,479 clothing item matches between street and shop photo"
+(Minaee, Liang & Yan, 2022)
+
+>"In [10], Liu et al. introduced DeepFashion1, a large-scale clothes dataset with comprehensive annotations. It contains over 800,000 images, which are richly annotated with massive attributes, clothing landmarks, and correspondence of images taken under different scenarios including store, street snapshot, and consumer"
+(Minaee, Liang & Yan, 2022)
+
+> "In [12], Han et al. proposed an image-based Virtual Try-On Network (VITON) without using 3D information in any form, which seamlessly transfers a desired clothing item onto the corresponding region of a person using a coarse-to-fine strategy"
 (Minaee, Liang & Yan, 2022)
 
 ### 3.3 Augmented Reality (AR)

@@ -77,3 +77,41 @@ if a tutorial is available for that equipment, the UI notifies the user of this.
 If the user decides to view the tutorial, the AR-based tutorial gets loaded 
 and the AR-UI gets superimposed on top of the real object. Then UI-panels are 
 used to display the tutorial content. \par
+\\
+\\
+\\
+Stepping outside of the laboratory setting, \textcite{VanGestel2024} developed 
+an AR-application for helping orthopedic procedures. Namely they wanted to 
+create a tool that would act as a new real-time AR-based safety solution and 
+guidance technique in the use of power tools in surgery. Prior to this there 
+did exist other camera and AR-based surgery systems but 
+\textcite{VanGestel2024} noted them to be physically too large, expensive and 
+time-consuming, which was said to limit their usefulness in assisting with 
+performing surgeries. \textcite{VanGestel2024} wanted to develop a solution 
+that could run on a head-mounted display (HMD) so that a surgeon could use 
+it while working with his/her hands. However one problem was that HMDs 
+typically couldn't do accurate enough tracking for surgical 
+use.\cite{VanGestel2024}\par
+	\textcite{VanGestel2024} don't describe the structure and logic 
+of the software built for their task very deeply. They do mention building it 
+for Microsoft's HoloLens headset, and circumventing the poor performance of 
+its camera's tracking ability by using the built in infrared sensor 
+instead.\cite{VanGestel2024} They measured the infrared sensor's tracking 
+accuracy to be below 1mm, accurate enough for surgical 
+work.\cite{VanGestel2024} Their software technically uses marker-based AR, 
+however it must be noted that the markers they use are not physical markers, 
+rather markers registered by an infrared-tracked stylus at the key positions 
+to the surgical operation.\cite{VanGestel2024} These virtual markers were then 
+used to show the users an AR-based guidance vector representing the desired 
+drilling direction when performing the surgery. The vector would also change 
+color to represent whether the current drilling direction was correct or not. 
+If the surgeon was drilling in the right direction the vector would be green, 
+otherwise the vector would be orange or red.\cite{VanGestel2024}\par
+	This software was then tested by letting 18 people perform mock 
+surgeries on wooden models.\cite{VanGestel2024} Three surgery guidance 
+techniques were compared: freehand surgery without guidance, 
+proprioception-guided surgery and surgery using the new 
+AR-tool.\cite{VanGestel2024} The mock surgeries were quite simple: the wooden 
+bone-models had defined entry and exit points between which the surgeons had 
+to drill, with parts of the models being covered by a cloth to better 
+simulate real conditions.\cite{VanGestel2024}
