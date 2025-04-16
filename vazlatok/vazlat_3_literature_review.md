@@ -102,3 +102,60 @@
 - The use of AR guidance for directional drilling yielded a higher angular accuracy compared to freehand and proprioceptive guidance. Regardless of experience, AR reduced the angular error by nearly half and led to more on-target drilling outcomes. Particularly in oblique drilling, AR proved highly beneficial, greatly reducing scatter along the Y-axis. (Van Gestel et al, 2024)
 - Out of a total of 216 drillings, 5 (2.31%) were on-target (r < 0.1 mm). None of the drillings were on-target in the freehand group, 1 in the proprioception group and 4 in the AR group (χ^2^, p = 0.074). (Van Gestel et al, 2024)
 - AR reduced angular uncertainty during directional drilling, improved drilling accuracy, particularly for complex trajectories and angles, observed across all experience levels (Van Gestel et al, 2024)
+
+### (Reyes et al, 2016)
+
+#### Goal & need
+ - Project goals:
+   1. Develop AR system to aid novice users in using milling & lathe machines in a school manufacturing laboratory
+   2. measure the acceptance rate and performance of the system 
+ (Reyes et al, 2016)
+  - Requirement for using both hands with the machinery simultaneously with the AR-system. (Reyes et al, 2016)
+
+#### Technical details
+ - Mobile Augmented Reality (MAR) system (mobile app for Android) (Reyes et al, 2016)
+ - Tutorials for a milling & a lathe machine:
+   - tool setup
+   - working material setup
+   - machinery setup
+   - starting the machines in question
+ (Reyes et al, 2016)
+ - AR-elements:
+   1. 3D models of machinery (milling & lathe machines) and tools such as spanners and Allen wrenches.
+   2. Text instructions to describe how to perform the basic tasks.
+   3. Labels, which help the user for locating machinery components and tools.
+   4. 3D arrows to indicate flow direction.
+   5. Real time videos that include task explanations performed by experts
+ (Reyes et al, 2016)
+  - Not to be run on smarthphones as such (two hands requirement).
+    - Hardware options:
+      - optical see-through glasses where the real world is observed through transparent mirrors placed in front of the eyes of the user (ORA-1 AR glasses)
+      - video see-through HMD (VR-PRO AR HMD)
+ (Reyes et al, 2016)
+  - Marker-based (M)AR (Reyes et al, 2016)
+  - Two kinds of markers
+    - Frame markers (FM) traditional AR-markers: frame patterns with encoded data in the frame
+    - Item Targets (IT) real world objects that the system tries to match to a 2D image using CV-algorithms such as edge and corner detection
+ (Reyes et al, 2016)
+  - Marker purposes:
+    1. machinery detection
+    2. showing augmentations
+    3. showing explanation videos
+ (Reyes et al, 2016)
+
+Application flow:
+```mermaid
+flowchart TD
+A[Main menu marker] --> B[Main menu]
+B --> C[Start application]
+B --> D[Get system help infromation]
+D --> E[User gets info on how to use app]
+C --> F[User can scan device markers]
+F --> G[Corresponding tutorial starts, lesson markers activated]
+G --> H[Lesson markers]
+H --> I[Multimedia markers]
+```
+ (Reyes et al, 2016)
+
+#### Experiment & results
+ - tested by 16 students and teachers at the university manufacturing laboratory through a survey (Reyes et al, 2016)
