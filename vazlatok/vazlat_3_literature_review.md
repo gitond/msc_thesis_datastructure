@@ -189,3 +189,57 @@ H --> I[Multimedia markers]
  - Takeaways:
    - The system developed for this project has potential to be a real-life teaching-learning tool.
    (Reyes et al, 2016)
+
+
+### (Lin & Lee, 2020)
+
+#### Goal & need
+ - Using AR-simulation as a practical aid to deepen students' understanding of CNC-machine operation independently. (Lin & Lee, 2020)
+ - Solve resource limitation problems in education:
+   - limited number of machines
+   - insufficient space
+   - limited amount of processing materials
+   - machine tool wear
+   - &rarr; students don't get enough practice on actual CNC-machines
+   (Lin & Lee, 2020)
+ - Certain problems are difficult to learn using traditional teaching methods such as: 
+   - limitations of the physical size & capabilities of CNC machines vs how they compare to models of workpieces created by modelling software
+   - different 3-Dimensional & complicated manufacturing processes and methods, such as turning over processing, mold hole processing, etc are hard to visualize with traditional methods.
+   - understanding how the instructions sent to the machine actually affect the workpiece itself.
+   (Lin & Lee, 2020)
+
+#### Technical details
+- Using AR to simulate CNC machine machining process and machine operation (Lin & Lee, 2020)
+- The built-in virtual imaging technology can superimpose virtual 3D machining workpieces on the physical CNC machine using mobile hardware (tablets) as displays (Lin & Lee, 2020)
+- AR markers for different operation processes, placed on the CNC machine (Lin & Lee, 2020)
+- Pre-made animations for different manufacturing processes supported by the CNC machine (Lin & Lee, 2020)
+
+#### Experiment & results
+- Ten participant study consisting of tool-aided CNC machine operation followed by filling out System Usability Scale-type questionnaire (SUS) (Lin & Lee, 2020)
+- The participants had prior CNC machine experience, but were still novice level students (Lin & Lee, 2020)
+- The students used the app developed for this study to simulate operating a CNC machine to manufacture an example furniture piece (Lin & Lee, 2020)
+- Questionnaire:
+  - five different evaluation dimensions:
+    - Understanding of Machining Procedures
+    - Time of Operation
+    - Accuracy of Operation
+    - Sequence and Information of the CNC Operation Steps
+    - Understanding of the Interface Knowledge of the CNC Cutting Machine Center
+  - 20 questions in total
+  - each secored 1-7 (1: high difficulty, 7: low difficulty)
+  (Lin & Lee, 2020)
+- Scores per evaluation dimension:
+  - Understanding of Machining Procedures: 4,86
+  - Time of Operation: 4,8
+  - Accuracy of Operation: 5,52
+  - Sequence and Information of the CNC Operation Steps: 4,98
+  - Understanding of the Interface Knowledge of the CNC Cutting Machine Center: 5,6
+  (Lin & Lee, 2020)
+ - results showed that the students could understand the relationship between workpieces and methods on the CNC machining through the AR system (Lin & Lee, 2020)
+ - Advantages found in using AR-based system for learning CNC machine operations: 
+   1. students understood & were able to complete necessary steps of using CNC machine for making furniture
+   2. students understood the relationship between the vitrual representations of processing objects and the real-world procedure
+   3. the system reduced  the work needed to be done by the teachers to teach operating the CNC machine to students
+   4. students were able to practice CNC machine operation more as they weren't limited by machine availability anymore. This also decreased material waste and safety risks
+   5. students were able to preview the interaction between models done by them and the cutting path of the CNC machine.
+   (Lin & Lee, 2020)
