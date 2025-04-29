@@ -1,24 +1,64 @@
+
 ## 3 Literature review
 
-### 3.1 Client-Server Architectures
+### 3.1 Augmented Reality (AR)
+> "AR superimposes three-dimensional objects on the physical world, requiring the use of mobile devices to create interactions. MR is a technology that combines the physical and digital worlds to create immersive physical experiences. Users interact with both the physical and digital worlds by using their five senses."
+(Estrada et al., 2022)
 
-> "Deep learning is capable of making the AR/MR systems smarter. However, to implement deep learning-based object detection, some obvious considerations need to be considered when choosing between a remote server or a local device. Fig. 5 shows the two processes for the object detection computation. This section discusses some advantages and disadvantages of each approach and explains some use cases from the literature. Capability, computation cost, complexity, and size of the model are important factors in choosing the computation method."
+> "There are diverse types of AR suitable for different applications despite the fact that they all have similar capabilities [32,33]. Figure 1 depicts the two primary types of AR: marker-based AR and marker-less AR"
+(Estrada et al., 2022)
+
+> "Marker-based AR works when it is triggered by pre-defined markers. It allows the user to choose where to place the virtual object. Barcodes and QR codes are commonly used as images or photo symbols to be placed on flat surfaces. The program recognizes the marker when the mobile device focuses the target image."
+(Estrada et al., 2022)
+
+> "Marker-less AR collects data from the device hardware such as a camera, a GPS, a digital compass, and an accelerometer for the AR program to function. Marker-less AR applications rely on computer vision algorithms to distinguish objects, and they can function in the real world without specific markers [37,38]."
+(Estrada et al., 2022)
+
+> "Location-based AR: In this type of AR, simultaneous localization and mapping (SLAM) technology is used to track the user’s location as the map is generated and updated on the user’s mobile device"
+(Estrada et al., 2022)
+
+> "Superimposition-based AR: Superimposition-based AR applications can provide an additional view along with the original view of the object. Object recognition is required to determine the type of object to partially or completely replace an object in the user’s environment with a digital image [43,44]."
+(Estrada et al., 2022)
+
+> "Projection-based AR: Projection-based AR (also known as projection mapping and augmented spatial reality) is a technique that does not require the use of head-mounted or hand-held devices. This method allows augmented information to be viewed immediately from a natural perspective. Using projection mapping, projection-based AR turns an uneven surface into a projection screen."
+(Estrada et al., 2022)
+
+> "Vuforia’s Model Target is an example of outlining-based AR. Vuforia is a platform that enables developers to quickly incorporate AR technology into their applications. Model Targets allow apps to recognize and track real-world objects based on their shape"
+(Estrada et al., 2022)
+
+> "Augmented reality (AR) is a technology which allows superposition of information atop the real world and has been an evolving field of research since the mid-1990s. During the last decade, several portable and fully integrated AR devices have become available, providing the wearer with virtual 3D data integration into their environment" 
+(Van Gestel et al, 2024)
+
+> "AR can be defined as “a real-time direct or indirect view of a physical real world environment that has been enhanced/augmented by adding virtual computer generated information to it.” Therefore, AR is a novel way of superimposing digital contents into the real context."
+(Reyes et al, 2016)
+
+> "Generally, a marker-based MAR requires a marker to register the position of a virtual object to be displayed into the user's perceptions of the real world. The system operates on five items: (1) computing device; (2) software; (3) marker label; (4) camera; and (5) display device."
+(Reyes et al, 2016)
+MAR = Mobile AR
+
+>"AR can be defined as an extended version of the physical world overlaid with digital content bridging the real and virtual environments. AR systems should accurately identify the real environment and its components to work best."
 (Ghasemi et al, 2022)
 
-> "For the remote server-based computation, the client/user (i.e., AR device) captures frames and sends them to the remote server; then the model processes the data on the server. Then, the model sends the output back to the client/user. Network connection and delays are important factors during this process."
+> "There is a rapid growth of marker-based and markerless techniques to identify real-world content in AR systems"
 (Ghasemi et al, 2022)
 
-> "Out of 69 studies collected for this review, 48 studies used cloud, edge, or GPU servers. 17 studies implemented their computation on the local AR devices, and 4 studies used both server and local devices for their computations."
+> "In marker-based AR, objects can be localized and tracked using physical markers attached to real objects."
 (Ghasemi et al, 2022)
 
-> "An android application to enable real-time AR was developed to perform object detection (Ran et al., 2017). They performed the object detection on both server and mobile devices and showed that factors affecting detection performance in these scenarios include model size, offloading decision, and video resolution. While the results using the server highly depend on the network condition, they concluded that offloading on the server improved frame rate and accuracy."
+> "To overcome such limitations, markerless AR was proposed to recognize the real environment based on spatial geometry and does not require any trigger markers attached to the space. This technique often results in more accurate detections by obtaining the spatial map of the environment and its components. However, markerless applications need to recognize a textured flat surface to augment the digital content effectively."
 (Ghasemi et al, 2022)
 
-> "Since time consumption is considered one of the main challenges of deep learning, studies used servers to increase the speed of computations even in the training process"
+> "Deep learning techniques can overcome typical marker-based and markerless AR deficiencies and provide faster and more accurate detections."
 (Ghasemi et al, 2022)
 
-> "Based on the reviewed studies and the tradeoffs each method entails, server-based object detection is more common and easier to implement."
+> "all AR devices consist of two elements: an image generating optical unit producing the virtual content, and a projection surface displaying the produced virtual content to the users."
 (Ghasemi et al, 2022)
+
+>"Augmented reality (AR) is an interactive experience of real-world environments, where the objects of the real world are enhanced by computer-generated perceptual information, sometimes across multiple modalities, including visual, auditory, haptic, and somatosensory"
+(Minaee, Liang & Yan, 2022)
+
+>"Hardware components for AR includes a processor, display, sensors and input devices. Modern mobile computing devices like smartphones and tablet computers contain these elements, making them suitable AR platforms"
+(Minaee, Liang & Yan, 2022)
 
 ### 3.2 Computer Vision (CV)
 > "Deep learning (DL), a sub-field of machine learning (ML), embraces artificial neural networks (ANN), which are algorithms inspired by the structure and function of the human brain"
@@ -111,64 +151,52 @@
 > "In [12], Han et al. proposed an image-based Virtual Try-On Network (VITON) without using 3D information in any form, which seamlessly transfers a desired clothing item onto the corresponding region of a person using a coarse-to-fine strategy"
 (Minaee, Liang & Yan, 2022)
 
-### 3.3 Augmented Reality (AR)
-> "AR superimposes three-dimensional objects on the physical world, requiring the use of mobile devices to create interactions. MR is a technology that combines the physical and digital worlds to create immersive physical experiences. Users interact with both the physical and digital worlds by using their five senses."
-(Estrada et al., 2022)
-
-> "There are diverse types of AR suitable for different applications despite the fact that they all have similar capabilities [32,33]. Figure 1 depicts the two primary types of AR: marker-based AR and marker-less AR"
-(Estrada et al., 2022)
-
-> "Marker-based AR works when it is triggered by pre-defined markers. It allows the user to choose where to place the virtual object. Barcodes and QR codes are commonly used as images or photo symbols to be placed on flat surfaces. The program recognizes the marker when the mobile device focuses the target image."
-(Estrada et al., 2022)
-
-> "Marker-less AR collects data from the device hardware such as a camera, a GPS, a digital compass, and an accelerometer for the AR program to function. Marker-less AR applications rely on computer vision algorithms to distinguish objects, and they can function in the real world without specific markers [37,38]."
-(Estrada et al., 2022)
-
-> "Location-based AR: In this type of AR, simultaneous localization and mapping (SLAM) technology is used to track the user’s location as the map is generated and updated on the user’s mobile device"
-(Estrada et al., 2022)
-
-> "Superimposition-based AR: Superimposition-based AR applications can provide an additional view along with the original view of the object. Object recognition is required to determine the type of object to partially or completely replace an object in the user’s environment with a digital image [43,44]."
-(Estrada et al., 2022)
-
-> "Projection-based AR: Projection-based AR (also known as projection mapping and augmented spatial reality) is a technique that does not require the use of head-mounted or hand-held devices. This method allows augmented information to be viewed immediately from a natural perspective. Using projection mapping, projection-based AR turns an uneven surface into a projection screen."
-(Estrada et al., 2022)
-
-> "Vuforia’s Model Target is an example of outlining-based AR. Vuforia is a platform that enables developers to quickly incorporate AR technology into their applications. Model Targets allow apps to recognize and track real-world objects based on their shape"
-(Estrada et al., 2022)
-
-> "Augmented reality (AR) is a technology which allows superposition of information atop the real world and has been an evolving field of research since the mid-1990s. During the last decade, several portable and fully integrated AR devices have become available, providing the wearer with virtual 3D data integration into their environment" 
-(Van Gestel et al, 2024)
-
-> "AR can be defined as “a real-time direct or indirect view of a physical real world environment that has been enhanced/augmented by adding virtual computer generated information to it.” Therefore, AR is a novel way of superimposing digital contents into the real context."
-(Reyes et al, 2016)
-
-> "Generally, a marker-based MAR requires a marker to register the position of a virtual object to be displayed into the user's perceptions of the real world. The system operates on five items: (1) computing device; (2) software; (3) marker label; (4) camera; and (5) display device."
-(Reyes et al, 2016)
-MAR = Mobile AR
-
->"AR can be defined as an extended version of the physical world overlaid with digital content bridging the real and virtual environments. AR systems should accurately identify the real environment and its components to work best."
-(Ghasemi et al, 2022)
-
-> "There is a rapid growth of marker-based and markerless techniques to identify real-world content in AR systems"
-(Ghasemi et al, 2022)
-
-> "In marker-based AR, objects can be localized and tracked using physical markers attached to real objects."
-(Ghasemi et al, 2022)
-
-> "To overcome such limitations, markerless AR was proposed to recognize the real environment based on spatial geometry and does not require any trigger markers attached to the space. This technique often results in more accurate detections by obtaining the spatial map of the environment and its components. However, markerless applications need to recognize a textured flat surface to augment the digital content effectively."
-(Ghasemi et al, 2022)
-
-> "Deep learning techniques can overcome typical marker-based and markerless AR deficiencies and provide faster and more accurate detections."
-(Ghasemi et al, 2022)
-
-> "all AR devices consist of two elements: an image generating optical unit producing the virtual content, and a projection surface displaying the produced virtual content to the users."
-(Ghasemi et al, 2022)
-
->"Augmented reality (AR) is an interactive experience of real-world environments, where the objects of the real world are enhanced by computer-generated perceptual information, sometimes across multiple modalities, including visual, auditory, haptic, and somatosensory"
+> "In [35], Liu et al. proposed a novel Deep Localized Makeup Transfer Network to automatically recommend the most suitable makeup for a female and synthesize the makeup on her face. Given a before-makeup face, her most suitable makeup is determined automatically. Then, both the before makeup and the reference faces are fed into the proposed Deep Transfer Network to generate the after-makeup face. The makeup recommendation for one sample image is shown in Fig 22."
 (Minaee, Liang & Yan, 2022)
 
->"Hardware components for AR includes a processor, display, sensors and input devices. Modern mobile computing devices like smartphones and tablet computers contain these elements, making them suitable AR platforms"
+> "The proposed Deep Localized Makeup Transfer Network contains two sequential steps. (i) the correspondences between the facial part (in the before-makeup face) and the cosmetic (in the reference face) are built based on the face parsing network. (ii) Eye shadow, foundation and lip gloss are locally transferred with a global smoothness regularization. The high-level architecture of this work is shown in Fig 23."
 (Minaee, Liang & Yan, 2022)
+
+> "Face style transfer or (face transformation) is another active research area, with huge applications in social media such Snapchat Lenses, Instagram Filters, TikTok lenses/effects"
+(Minaee, Liang & Yan, 2022)
+
+> "In [48], Yi et al. developed dual-GAN mechanism, which enables image translators to be trained from two sets of unlabeled images from two domains. In their architecture, the primal GAN learns to translate images from domain U to those in domain V , while the dual GAN learns to invert the task"
+(Minaee, Liang & Yan, 2022)
+
+> "There are various algorithms which are the core of AR based games, such as tracking, scene understanding, and reconstruction. In this part, we focus on the tracking frameworks, which involve algorithms for tracking a target object/environment via cameras and sensors, and estimating viewpoint poses. Although vision is not the only modality used for tracking in AR applications, given the scope of this paper, we mainly focus on vision based tracking frameworks"
+(Minaee, Liang & Yan, 2022)
+
+> "In [57], Krafka et al. introduced GazeCapture, the first large-scale dataset for eye tracking, containing data from over 1450 people consisting of almost 2.5M frames. Using GazeCapture, they trained iTracker, a convolutional neural network for eye tracking, which achieved a significant reduction in error over previous approaches while running in real time (10–15fps) on a modern mobile device. Their model achieved a prediction error of 1.71cm and 2.53cm without calibration on mobile phones and tablets respectively"
+(Minaee, Liang & Yan, 2022)
+
+> "In [58], Zhang et al. proposed an appearance-based method for eye gaze estimation that, in contrast to a long-standing line of work in computer vision, only takes the full face image as input. This method encodes the face image using a convolutional neural network with spatial weights applied on the feature maps to flexibly suppress or enhance information in different facial regions."
+(Minaee, Liang & Yan, 2022)
+
+> "In [67], Oberweger et al. introduced and evaluated several architectures Fig. 44. An overview of RT-GENE architecture. Courtesy of [59] Fig. 45. Some of the sample images from Gaze360 dataset. Courtesy of [60] for Convolutional Neural Networks to predict the 3D joint locations of a hand given a depth map"
+(Minaee, Liang & Yan, 2022)
+
+> "In [69], Ge et al. proposed a simple, yet effective approach for real-time hand pose estimation from single depth images using 3D CNNs. Their proposed 3D CNN taking a 3D volumetric representation of the hand depth image as input can capture the 3D spatial structure of the input and accurately regress full 3D hand pose in a single pass. The architecture of the proposed 3D CNN by this work is shown in Fig 49"
+(Minaee, Liang & Yan, 2022)
+
+### (3.3 Client-Server Architectures)
+
+> "Deep learning is capable of making the AR/MR systems smarter. However, to implement deep learning-based object detection, some obvious considerations need to be considered when choosing between a remote server or a local device. Fig. 5 shows the two processes for the object detection computation. This section discusses some advantages and disadvantages of each approach and explains some use cases from the literature. Capability, computation cost, complexity, and size of the model are important factors in choosing the computation method."
+(Ghasemi et al, 2022)
+
+> "For the remote server-based computation, the client/user (i.e., AR device) captures frames and sends them to the remote server; then the model processes the data on the server. Then, the model sends the output back to the client/user. Network connection and delays are important factors during this process."
+(Ghasemi et al, 2022)
+
+> "Out of 69 studies collected for this review, 48 studies used cloud, edge, or GPU servers. 17 studies implemented their computation on the local AR devices, and 4 studies used both server and local devices for their computations."
+(Ghasemi et al, 2022)
+
+> "An android application to enable real-time AR was developed to perform object detection (Ran et al., 2017). They performed the object detection on both server and mobile devices and showed that factors affecting detection performance in these scenarios include model size, offloading decision, and video resolution. While the results using the server highly depend on the network condition, they concluded that offloading on the server improved frame rate and accuracy."
+(Ghasemi et al, 2022)
+
+> "Since time consumption is considered one of the main challenges of deep learning, studies used servers to increase the speed of computations even in the training process"
+(Ghasemi et al, 2022)
+
+> "Based on the reviewed studies and the tradeoffs each method entails, server-based object detection is more common and easier to implement."
+(Ghasemi et al, 2022)
 
 ### 3.4 Prototypes Similar to Ours
 > "we developed a mobile application, Ocul-AR, for microscopy teaching and support" 
@@ -621,4 +649,3 @@ This could be displayed as a table for example
 
 > "In addition, improvements in AR glasses interaction can be added, by using speech recognition and voice navigation, instead of using the touch interface"
 (Reyes et al, 2016)
-
