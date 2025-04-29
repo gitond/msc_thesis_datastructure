@@ -159,3 +159,33 @@ H --> I[Multimedia markers]
 
 #### Experiment & results
  - tested by 16 students and teachers at the university manufacturing laboratory through a survey (Reyes et al, 2016)
+ - Experiment flow:
+   - General introduction to AR
+   - Introduction to AR system in this study
+   - Completing lessons in AR system on 1/2 hardware options
+   - Completing a survey
+   (Reyes et al, 2016)
+ - 10 question survey with a Likert-scale style scoring system:
+   - first 5 relating to acceptance metrics (satisfaction, precision, understandability, explanativeness, attractiveness)
+   - next 3 relating to performance metrics (interface, speed, marker system)
+   - a generic "Have you used mobile AR systems before?"
+   - an open answer field
+    (Reyes et al, 2016)
+ - Results:
+   - Averages (calculated by Likert-scale to point conversion where: very bad = 1, regular = 3, very good = 5)
+     - satisfaction: 4
+     - precision: 4
+     - understandability: 4,5
+     - explanativeness: 4
+     - attractiveness: 4,5
+     - interface: 3,5
+     - speed: 4
+     - marker system: 4,5
+   - Interface was the weakest element. Only 50% rated it as good or very good
+   - Open answer field notes:
+     - Teachers & lab staff participating in this study were interested in using it as an educational tool later
+     - Students also saw it as an appealing way to learn machine operation basics
+     (Reyes et al, 2016)
+ - Takeaways:
+   - The system developed for this project has potential to be a real-life teaching-learning tool.
+   (Reyes et al, 2016)
