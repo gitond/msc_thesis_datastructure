@@ -20,6 +20,9 @@
 
 > "Simultaneous localization and mapping (SLAM) is the process by which a mobile robot can build a map of the environment and, at the same time, use this map to compute its location" (Bailey and Durrant-Whyte)
 
+> "Simultaneous Localization and Mapping (SLAM) denotes the computational technique that creates and updates a map of an unknown space where a robot agent is located, while simultaneously tracking the agent’s location in it. It is a crucial step in many of the AR/MR, and also robotic applications."
+(Minaee, Liang & Yan, 2022)
+
 > "Superimposition-based AR: Superimposition-based AR applications can provide an additional view along with the original view of the object. Object recognition is required to determine the type of object to partially or completely replace an object in the user’s environment with a digital image [43,44]."
 (Estrada et al., 2022)
 
@@ -182,6 +185,15 @@ MAR = Mobile AR
 (Minaee, Liang & Yan, 2022)
 
 > "In [69], Ge et al. proposed a simple, yet effective approach for real-time hand pose estimation from single depth images using 3D CNNs. Their proposed 3D CNN taking a 3D volumetric representation of the hand depth image as input can capture the 3D spatial structure of the input and accurately regress full 3D hand pose in a single pass. The architecture of the proposed 3D CNN by this work is shown in Fig 49"
+(Minaee, Liang & Yan, 2022)
+
+> "In [82], Pavllo et al. proposed a 3D human pose estimation in video with temporal convolutions and semi-supervised training. They demonstrated that 3D poses in video can be effectively estimated with a fully convolutional model based on dilated temporal convolutions over 2D keypoints"
+(Minaee, Liang & Yan, 2022)
+
+> "Deep learning models developed for vision geometry are important for various AR applications (such as the ones in Games, Museums, Automotive, and Scene Understanding). There are various works developed in this direction. Here we cover some of the prominent works"
+(Minaee, Liang & Yan, 2022)
+
+> "In [97], Dai et al. introduced ScanNet, an RGB-D video dataset containing 2.5M views in 1513 scenes annotated with 3D camera poses, surface reconstructions, and semantic segmentations. To collect this data, they designed an easy-to-use and scalable RGB-D capture system that includes automated surface reconstruction and crowd-sourced semantic annotation. They showed that using this data helps achieve state-of-the-art performance on several 3D scene understanding tasks, including 3D object classification, semantic voxel labeling, and CAD model retrieval"
 (Minaee, Liang & Yan, 2022)
 
 #### (Client-Server Architectures (Now part of CV))
