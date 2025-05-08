@@ -1,7 +1,6 @@
+## 2 Background
+[](Now-including-AR-stuff)
 
-## 3 Literature review
-
-### 3.1 Augmented Reality (AR)
 > "AR superimposes three-dimensional objects on the physical world, requiring the use of mobile devices to create interactions. MR is a technology that combines the physical and digital worlds to create immersive physical experiences. Users interact with both the physical and digital worlds by using their five senses."
 (Estrada et al., 2022)
 
@@ -60,7 +59,10 @@ MAR = Mobile AR
 >"Hardware components for AR includes a processor, display, sensors and input devices. Modern mobile computing devices like smartphones and tablet computers contain these elements, making them suitable AR platforms"
 (Minaee, Liang & Yan, 2022)
 
-### 3.2 Computer Vision (CV)
+## 3 Literature review
+
+### 3.1 Computer Vision (CV)
+
 > "Deep learning (DL), a sub-field of machine learning (ML), embraces artificial neural networks (ANN), which are algorithms inspired by the structure and function of the human brain"
 (Estrada et al., 2022)
 
@@ -178,7 +180,7 @@ MAR = Mobile AR
 > "In [69], Ge et al. proposed a simple, yet effective approach for real-time hand pose estimation from single depth images using 3D CNNs. Their proposed 3D CNN taking a 3D volumetric representation of the hand depth image as input can capture the 3D spatial structure of the input and accurately regress full 3D hand pose in a single pass. The architecture of the proposed 3D CNN by this work is shown in Fig 49"
 (Minaee, Liang & Yan, 2022)
 
-### (3.3 Client-Server Architectures)
+#### (Client-Server Architectures (Now part of CV))
 
 > "Deep learning is capable of making the AR/MR systems smarter. However, to implement deep learning-based object detection, some obvious considerations need to be considered when choosing between a remote server or a local device. Fig. 5 shows the two processes for the object detection computation. This section discusses some advantages and disadvantages of each approach and explains some use cases from the literature. Capability, computation cost, complexity, and size of the model are important factors in choosing the computation method."
 (Ghasemi et al, 2022)
@@ -198,7 +200,7 @@ MAR = Mobile AR
 > "Based on the reviewed studies and the tradeoffs each method entails, server-based object detection is more common and easier to implement."
 (Ghasemi et al, 2022)
 
-### 3.4 Prototypes Similar to Ours
+### 3.2 Prototypes Similar to Ours
 > "we developed a mobile application, Ocul-AR, for microscopy teaching and support" 
 (Pylvänäinen et al., 2023)
 

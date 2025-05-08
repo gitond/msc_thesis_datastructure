@@ -1,12 +1,9 @@
 # 3 Literature review
 
-## 3.1 Client-Server Architectures
+## 3.1 Computer Vision (CV)
+[](Now-including-CSA-stuff)
 
-## 3.2 Computer Vision (CV)
-
-## 3.3 Augmented Reality (AR)
-
-## 3.4 Prototypes Similar to Ours
+## 3.2 Prototypes Similar to Ours
 
  - bg ok, now prototypes
 
