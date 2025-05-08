@@ -19,3 +19,62 @@ RQ1: technological challenges in combining CV \& AR
 \end{itemize}
 
 \section{AR in a nutshell (come up with a better title later)} \label{ar}
+
+AR is a technology that can be defined many ways. \textcite{reyesEtAl2016} 
+define it as a real-time view of the real-world environment that has been 
+enhanced by adding computer generated information on top of it. 
+\textcite{ghasemi} call AR an extended version of the real world, on top of 
+which digital content is overlaid acting as a bridge between the real and 
+virtual worlds. \textcite{minaee2022modernaugmentedrealityapplications} 
+define AR as an interactive experience where objects of the real world are 
+enhanced by information added by a computer system. I would personally define 
+AR as that superimposes information on top of the real world to create 
+interactive experiences. This information is often represented as 3D-objects 
+known as augmentations.\cite{estrada}\cite{VanGestel2024}\par
+	To create an AR experience, one must at least have a computing unit 
+for generating the augmentations and calculating their locations and a 
+projection surface, on which to display the virtual content to the 
+users.\cite{ghasemi} Additionally sensors or cameras are needed to observe 
+the real world, and input devices are needed to let the users interact with 
+the AR-software.\cite{reyesEtAl2016}\cite{minaee2022modernaugmentedrealityapplications}\par
+	There are multiple different ways to achieve AR. The two most obvious 
+categories are marker-based AR and markerless AR.\cite{estrada} In 
+marker-based AR physical markers, such as barcodes or QR-codes are placed in 
+the real-world environment, and these tell the software the location where to 
+add the augmentations.\cite{estrada}\cite{reyesEtAl2016} In practical 
+applications these markers often need to be attached to real-world 
+objects\cite{ghasemi} which may be unattractive in certain applications.\par
+	An alternative to this is markerless AR. Markerless AR doesn't use 
+pre-defined markers, instead it collects data from sensors such as a camera 
+or a GPS and uses advanced algorithms to determine where to render the 
+augmentations.\cite{estrada} Typically these algorithms are computer vision 
+based\cite{estrada} but in the future deep-learning based methods might also 
+be used\cite{ghasemi}. To render augmentations on top of the real world without 
+using markers, markerless AR needs to in essence obtain a spatial map of its 
+environment\cite{ghasemi} and detect flat surfaces.\cite{ghasemi} Markerless 
+AR can of course in itself be achieved in many different ways. 
+\textcite{estrada} list four in particular: \par
+	Location-based AR is a form of markerless AR where AR content is 
+locked to geographical areas.\cite{locAR} In these kinds of software the user's 
+location is obtained through GPS, sometimes also using a digital compass or 
+other sensors.\cite{locAR} Location-based AR softwares typically use 
+Simultaneous Localization and Mapping (SLAM) algorithms  to map the local area, 
+keep track of the user's position within it and show the 
+augmentations.\cite{estrada}\cite{slam}\par
+	Another way of achieving markerless AR is known as 
+superimposition-based AR. Here advanced object detection algorithms are used 
+to detect an object from a camera feed and then an augmentation is 
+superimposed on top of it.\cite{estrada} A third way is outlining-based AR. 
+In outlining-based AR, the objects which determine the positions of the 
+augmentations are tracked by detecting their shape, using algorithms that can 
+recognize certain contours or forms.\cite{estrada}\par
+	\textcite{estrada} also mentions projection-based AR (also known as 
+projection mapping or spatial AR) as a fourth kind of markerless AR. 
+Projection-based mapping is a type of AR where a projector is used to project 
+the augmentation onto a surface rather than using a screen with a camera feed 
+to show the augmentations.\cite{estrada} This type of AR could use any type 
+of CV-algorithm to calculate the location of the augmentations. For example 
+\textcite{lamp} created an application where animations could be projected 
+onto a drawing surface. This project used various CV-algorithms to calculate 
+augmentation positions and facilitate interactivity, such as geometric shape 
+detection and hand gesture detection.\cite{lamp}

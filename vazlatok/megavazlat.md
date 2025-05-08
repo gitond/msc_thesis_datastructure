@@ -1,6 +1,6 @@
 ## 2 Background
-[](Now-including-AR-stuff)
 
+### 2.2 AR in a nutshell
 > "AR superimposes three-dimensional objects on the physical world, requiring the use of mobile devices to create interactions. MR is a technology that combines the physical and digital worlds to create immersive physical experiences. Users interact with both the physical and digital worlds by using their five senses."
 (Estrada et al., 2022)
 
@@ -15,6 +15,10 @@
 
 > "Location-based AR: In this type of AR, simultaneous localization and mapping (SLAM) technology is used to track the user’s location as the map is generated and updated on the user’s mobile device"
 (Estrada et al., 2022)
+
+> "Marker-less AR known as location-based or position-based augmented reality that uses a GPS, a compass, a gyroscope, and an accelerometer to provide data based on the location of the user [1]. This data then determines what AR content you find or get in a given area." (Batuwanthudawa and Jayasena)
+
+> "Simultaneous localization and mapping (SLAM) is the process by which a mobile robot can build a map of the environment and, at the same time, use this map to compute its location" (Bailey and Durrant-Whyte)
 
 > "Superimposition-based AR: Superimposition-based AR applications can provide an additional view along with the original view of the object. Object recognition is required to determine the type of object to partially or completely replace an object in the user’s environment with a digital image [43,44]."
 (Estrada et al., 2022)
