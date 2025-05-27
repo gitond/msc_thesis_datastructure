@@ -1,6 +1,57 @@
 # 3 Literature review
 
 ## 3.1 Computer Vision (CV)
+
+### CV: Intro
+
+- Computer Vision: a field of tudy where cameras and computer systems are used to extract information from the real world. (concise computer vision)
+- In 1966 Rosenfeld and Pfaltz had already used computers to perform pattern recognition on images (ghasemi)
+- Early CV used stuff like pattern recognition, part-based algorithms, matching techniques and statistical classifiers to analyze images (ghasemi)
+- Nowadays DL-based methods are being used (ghasemi)
+- Deep Learning (DL): a sub-field of Machine Learning (ML) where algorithms modeling the structure and function of the human brain, known as deep neural networks are used to complete various tasks (estrada)
+- Main difference between DL and early CV: in early CV you had to manually come up with an algorithm to track the objects. In DL you feed a large number of data to an existing method and it will learn the patterns by which to recognize the trackable object. (ghasemi)
+
+### Object detection as a task
+
+  - a popular research topic within DL in the past decade, due to its potential in several heavily researched applications such as Autonomous driving and robotics (estrada, ghasemi)
+ - goal: given an image frame, find one or multiple pre-defined objects within it (ghasemi)
+ - sub-tasks according to (ghasemi):
+   - object localization: determining the exact location of the object within the frame
+   - object classification: determining which kind of object has been found, when using object detection to detect multiple different kinds of objects
+
+### Object detection: Relevance to AR; Early CV vs DL based Object detection
+
+ - The tracking of markers in Marker-Based AR can be thought of as an example of object detection (ghasemi)
+ - However this is typically not done with DL algorithms, but with older CV techniques such as statistical classifiers (ghasemi)
+ - Example: (zhang, fronz, navab) compare different tracking systems and while they don't describe each of their internal workings in depth, they build a "checking" system on top using openCV corner tracking, which is based on a traditional non-DL CV corner detection algorithm from 1988 (opencv, harris corner detection)
+ - While DL-based object detection methods require more computation (ghasemi, minaee2022modernaugmentedrealityapplications) showed that there are methods suitable for running on low powered hardware such as mobile phones or AR-glasses, at a high enough framerate, that these could also be used to achieve markerless AR on mobile devices
+ - In fact (estrada) does this in 3.2!
+ - <mark>We might want a picture comparing early CV vs DL-based methods ability to detect objects such as in (ghasemi) Fig.3 somewhere</mark>
+
+### (minaee2022modernaugmentedrealityapplications)
+- (minaee2022modernaugmentedrealityapplications) went through DL-techniques used in AR-applications
+- They found DL was used in AR applications for use cases such as:
+  - Face and body transformations (essentially using DL image-to-image transformations to generate photography filters and then feed the images with the filters back to the users)
+    - in shopping apps: clothing try-on, makeup try-on
+  - Tracking and user pose estimation
+  - Human reconstruction
+  - Face transformation
+  - Scene reconstruction
+  - Traditional pattern recognition and geometry application
+- They mention several datasets that can be used to train DL-models:
+  - Deepfashion1, a high quality dataset of over 800 000 pieces of clothing which can be used to train a DL-model to track pieces of clothing (liuziwei7 deepfashion1 poster)
+- They also mention several AR applications powered by DL-algorithms:
+  - VITON an AR application which let's the user choose a piece of clothing and then shows the user in that piece of clothing (han viton arxiv)
+  - Deep Localized Makeup Transfer Network which can recommend makeup products to users and show them how'd they look with that makeup on (liu makeup arxiv)
+- x
+
+### Object detection methods
+
+ - A Convolutional Neural Network (CNN) takes an image, divides it into pieces, analyses the pieces through convolution and pooling and then performs object classification through this analysis (ghasemi)
+ - A Region-based Convolutional Neural Network (RCNN) first analyses the image using another method to define Regions of interest, then applies a CNN to the detected regions of interest (ghasemi, estrada)
+ - (You Only Look Once) YOLO divides the input image into S*S grids and searches each grid for the object. It is considerably more light-weight than region-based methods like RCNN (ghasemi, estrada)
+ - Technologies mentioned by (ghasemi) being suitable for real-time (AR) use on mobile hardware: MobileNet v2 (CNN based), tiny YOLO v2 (YOLO based)
+
 [](Now-including-CSA-stuff)
 
 ## 3.2 Prototypes Similar to Ours

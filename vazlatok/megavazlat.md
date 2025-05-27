@@ -1,3 +1,4 @@
+
 ## 2 Background
 
 ### 2.2 AR in a nutshell
@@ -194,6 +195,9 @@ MAR = Mobile AR
 (Minaee, Liang & Yan, 2022)
 
 > "In [97], Dai et al. introduced ScanNet, an RGB-D video dataset containing 2.5M views in 1513 scenes annotated with 3D camera poses, surface reconstructions, and semantic segmentations. To collect this data, they designed an easy-to-use and scalable RGB-D capture system that includes automated surface reconstruction and crowd-sourced semantic annotation. They showed that using this data helps achieve state-of-the-art performance on several 3D scene understanding tasks, including 3D object classification, semantic voxel labeling, and CAD model retrieval"
+(Minaee, Liang & Yan, 2022)
+
+> "Many of the current models developed for AR applications work well only under constrained scenarios (such as simple background, or limited occlusion). Developing new models that perform well in general setting and complex environment is an important research area, which can further extend the application of AR models in different areas. In addition to algorithmic contributions, collecting more complex datasets (with more labeled data in the wild) would be helpful for this purpose"
 (Minaee, Liang & Yan, 2022)
 
 #### (Client-Server Architectures (Now part of CV))

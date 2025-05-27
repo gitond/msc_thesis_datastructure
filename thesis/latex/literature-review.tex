@@ -1,10 +1,95 @@
 \chapter{Literature review} \label{Literature review}
 
 \section{Computer Vision (CV)} \label{cv}
-% This should include the Client-Server Architecture stuff
 
+Computer Vision is a field of study where cameras and computer systems are 
+used to extract information from the real world.\cite{klette2014hv} It is a 
+fairly old field dating back to the 1960s. Early CV utilized technologies like 
+pattern recognition, part-based algorithms, matching techniques and 
+statistical classifiers to analyze images.\cite{ghasemi} Nowadays Deep 
+Learning (DL) based methods are often used to perform CV tasks.\cite{ghasemi} 
+Deep Learning is a sub-field field of Machine Learning (ML) where algorithms 
+modeling the structure and function of the human brain, known as deep neural 
+networks are used to complete various tasks.\cite{estrada} A big difference 
+in using traditional CV-methods and DL-based methods to perform CV tasks is, 
+that in early CV practicioners themselves had to define algorithms fit for 
+the task at hand whereas in DL-based methods lots of data is fed to the deep 
+neural networks (models) which will then analyze that data and learn patterns 
+that they then use to perform the task.\cite{ghasemi}\par
+	DL-based methods are often based on Convolutional Neural Networks (CNN).
+A CNN takes an image, divides it into pieces, analyses the pieces through 
+convolution and pooling and then performs object classification through this 
+analysis.\cite{ghasemi} Region-based Convolutional Neural Networks (RCNN) are 
+an evolution of this technology. An RCNN first analyses the image using 
+another method to define Regions of interest, then applies a CNN to the 
+detected regions of interest.\cite{ghasemi}\cite{estrada} You Only Look Once 
+(YOLO) is an even more advanced DL-based CV-technique. YOLO divides the input 
+image into S*S grids and searches each grid for the object. It is 
+considerably more light-weight than region-based methods like 
+RCNN.\cite{ghasemi}\cite{estrada}
+	A key task within CV, that is very relevant in AR applications is 
+object detection. Object detection has been a popular research topic in this 
+past decade both within the fields of CV and DL and on top of being relevant 
+for AR, it also has potential in heavily researched applications such as 
+Autonomous driving and robotics.\cite{estrada}\cite{ghasemi} Object detection 
+aims to find one or several pre-defined objects, given an image 
+frame.\cite{ghasemi} According to \textcite{ghasemi} object detection can be 
+viewed as a task consisting of the following sub-tasks:
+
+\begin{description}
+	\item[Object localization:] determining the exact location of the object within the frame
+	\item[Object classification:] determining which kind of object has been found, when using object detection to detect multiple different kinds of objects
+\end{description} \par
+
+	The tracking of markers in Marker-Based AR can be thought of as an 
+example of object detection. However this is typically not done with 
+DL-algorithms, but with older CV-techniques such as statistical 
+classifiers.\cite{ghasemi} For example \textcite{zhangFronzNavab} compare 
+different tracking systems and while they don't describe each of their 
+internal workings in detail, they build their own tracking solution to measure 
+the tracking accuarcy of the compared system. To build this they used the 
+openCV-libraries built in corner detection algorithm which is a traditional 
+CV-algorithm from 1988, developed long before the existance of DL-based 
+methods.\cite{opencvHarris} While DL-based object detection methods require 
+more computation, both \textcite{ghasemi} and 
+\textcite{minaee2022modernaugmentedrealityapplications} showed, that there do 
+exist DL-based object detection methods that are suitable for running on low 
+powered hardware, such as mobile phones or AR-glasses, at a high enough 
+framerate, that they could be used to create markerless AR experiences on 
+these devices. \textcite{ghasemi} names the CNN-based MobileNet v2, and the 
+YOLO-based tiny YOLO v2 as suitable for real-time AR use on mobile hardware. 
+In \ref{protos} we look at an example from \textcite{estrada} where a 
+DL-based algorithm is used to perfor object tracking.\par
+
+% We might want a picture comparing early CV vs DL-based methods ability to detect objects such as in (ghasemi) Fig.3 somewhere
+
+	In a very fascinating article 
+\textcite{minaee2022modernaugmentedrealityapplications} looked through 
+examples of the usage of modern DL-techniques in several AR applications. 
+They found that DL was used in AR applications for use cases such as tracking, 
+user pose estimation, traditional pattern recognition and geometrical 
+application. But on top of these DL-based methods were also used to generate 
+augmentations for scene reconstruction, human reconstruction and face and 
+body transformations. Essentially here they used DL-based image-to-image 
+transformations to manipulate the input image by adding augmentations. This 
+technique was typically used in shopping apps to let the users try on 
+clothing or makeup. \textcite{minaee2022modernaugmentedrealityapplications} 
+mention several datasets that can be used to train the DL-models used in 
+these apps. For example Deepfashion1\cite{liuziwei7Deepfashion1Poster} is a 
+high quality dataset of over 800 000 pieces of clothing which can be used to 
+train a DL-model to track pieces of clothing. 
+\textcite{minaee2022modernaugmentedrealityapplications} also mention several 
+AR applications powered by DL-algoritgms. For example 
+VITON\cite{hanVitonArxiv} is an AR application which lets the user choose a 
+piece of clothing and then shows the user in that piece of clothing, and Deep 
+Localized Makeup Transfer Network\cite{liuMakeupArxiv} is an AR application 
+that can recommend makeup products to users and show them how'd they look 
+with that makeup on.\par
+
+% Client-Server Architecture stuff here!
 
 \section{Prototypes Similar to Ours} \label{protos}
+
 Before designing and describing our own software architecture it is 
 worthwhile to look at applications other people have developed that solve a 
 problem similar to ours. A great example of such an application is the work 
