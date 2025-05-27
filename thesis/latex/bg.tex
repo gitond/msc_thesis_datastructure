@@ -28,19 +28,20 @@ which digital content is overlaid acting as a bridge between the real and
 virtual worlds. \textcite{minaee2022modernaugmentedrealityapplications} 
 define AR as an interactive experience where objects of the real world are 
 enhanced by information added by a computer system. I would personally define 
-AR as that superimposes information on top of the real world to create 
+AR as software that superimposes information on top of the real world to create 
 interactive experiences. This information is often represented as 3D-objects 
 known as augmentations.\cite{estrada}\cite{VanGestel2024}\par
-	To create an AR experience, one must at least have a computing unit 
-for generating the augmentations and calculating their locations and a 
-projection surface, on which to display the virtual content to the 
-users.\cite{ghasemi} Additionally sensors or cameras are needed to observe 
-the real world, and input devices are needed to let the users interact with 
-the AR-software.\cite{reyesEtAl2016}\cite{minaee2022modernaugmentedrealityapplications}\par
+	AR experiences cannot be created without certain hardware components. 
+First, a computing unit is needed for generating the augmentations and 
+calculating their locations. Second, a projection surface is needed on which 
+to display the virtual content to the users.\cite{ghasemi} Additionally 
+sensors or cameras are needed to observe the real world. Input devices are 
+also needed to let the users interact with the 
+AR-software.\cite{reyesEtAl2016}\cite{minaee2022modernaugmentedrealityapplications}\par
 	There are multiple different ways to achieve AR. The two most obvious 
 categories are marker-based AR and markerless AR.\cite{estrada} In 
-marker-based AR physical markers, such as barcodes or QR-codes are placed in 
-the real-world environment, and these tell the software the location where to 
+marker-based AR, physical markers, such as barcodes or QR-codes are placed in 
+the real-world environment, and these tell the software the location, where to 
 add the augmentations.\cite{estrada}\cite{reyesEtAl2016} In practical 
 applications these markers often need to be attached to real-world 
 objects\cite{ghasemi} which may be unattractive in certain applications.\par
@@ -49,11 +50,12 @@ pre-defined markers, instead it collects data from sensors such as a camera
 or a GPS and uses advanced algorithms to determine where to render the 
 augmentations.\cite{estrada} Typically these algorithms are computer vision 
 based\cite{estrada} but in the future deep-learning based methods might also 
-be used\cite{ghasemi}. To render augmentations on top of the real world without 
-using markers, markerless AR needs to in essence obtain a spatial map of its 
-environment\cite{ghasemi} and detect flat surfaces.\cite{ghasemi} Markerless 
-AR can of course in itself be achieved in many different ways. 
-\textcite{estrada} list four in particular: \par
+be used\cite{ghasemi}. Different kinds of computer vision algorithms that can 
+be used to achieve markerless AR are further discussed in \ref{cv}. To render 
+augmentations on top of the real world without using markers, markerless AR 
+needs to in essence obtain a spatial map of its environment\cite{ghasemi} and 
+detect flat surfaces.\cite{ghasemi} Markerless AR can of course in itself be 
+achieved in many different ways. \textcite{estrada} list four in particular:\par
 	Location-based AR is a form of markerless AR where AR content is 
 locked to geographical areas.\cite{locAR} In these kinds of software the user's 
 location is obtained through GPS, sometimes also using a digital compass or 
