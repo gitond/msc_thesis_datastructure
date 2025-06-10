@@ -1,17 +1,38 @@
 \chapter{Architecture Description} \label{Arch description}
 
-Justification for RQ2 should be included in this chapter \\
-RQ2: can such a system be used in cooking?
-\begin{itemize}
-	\item{Goal: build a demo system thet uses CV with AR}
-	\begin{itemize}
-		\item{Why cooking?}
-		\begin{itemize}
-			\item{AR could make the task easier}
-			\item{CV: lots of things to track (ingredients, pots, knives etc)}
-		\end{itemize}
-	\end{itemize}
-\end{itemize}
+\section{Problem Description} \label{probDesc}
+
+The main goal of this thesis is to develop an application which aims to use a 
+modern CV and DL-based tracking solution in an AR application. This is first 
+defined in \hyperref[rq2]{\textbf{RQ2}}. Here we further define the needs of 
+this prototype. The aim of this thesis is to build an application that would 
+guide the user through the preparation of a single recipe. The goal would be 
+to offer real-time guidance for all the actions involved in making the chosen 
+dish. AR-augmentations would need to be created for each of the actions 
+involved. Examples of these actions are for example adding ingredients to 
+pots, handling kitchen appliances, peeling and chopping ingredients and 
+waiting for cooking times. \par
+	There is a case to be made here for using more advanced CV and 
+DL-based methods for tracking. Most obvious among these is the simple fact 
+that there are lots of things to track. Just in the case of a simple pasta 
+Bolognese recipe one needs to track a bunch of different ingredients, such as 
+onion, meat, tomato sauce etc. These also have different states, such as raw, 
+peeled, chopped, translucent in the case of the onion. On top of ingredients, 
+different kitchenware such as pots and pans, and also different kitchen 
+appliances need to be tracked. An example would be an electric stove top with 
+different heat settings. \par
+	Cooking was chosen as the example use-case because it is a real world 
+problem where offering AR-based guidance would be useful and where using 
+advanced CV-methods in tracking is justified. In \ref{protos} we also see 
+prototypes developed by other teams using a similar step-by-step tutorial 
+format for their AR-content. Both \textcite{pylvanainen} and 
+\textcite{reyesEtAl2016} use this kind of approach to teach instrument use in 
+laboratories. But their applications use traditional tracking methods that 
+are developed for their specific instruments. If an easily retrainable modern 
+CV-based tracking method is used, one could theoretically take the cooking 
+app developed for this prototype, retrain the tracking module and use it with 
+any step-by-step tutorial, making the potential of this sort of application 
+huge.
 
 \section{Perceived Challenges} \label{challenges}
 
