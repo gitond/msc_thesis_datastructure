@@ -5,38 +5,29 @@
 Justication for RQ2 should be included in this chapter
 RQ2: can such a system be used in cooking?
  - Goal: build a demo system thet uses CV with AR
-Prototype goals. We would like to create a prototype where
- - The prototype guides the user through a simple recipe and provides AR annotated instructions for each step
-Example: Bolognese recipe
+[](Issue #29 Prototype Description)
+ - Our prototype will guide the user through the recipe...
+ - Computer Vision is used to...
+ - To test the prototype we'll
+[](Close issue #29)
+Justifying CV & discussing our recipe
  - Goal: offer **real-time** guidance for **actions** involved in making the dish
-   - adding ingredients to pots, handling kitchen appliances, peeling and chopping ingredients, waiting for cooking times
+   - adding ingredients to pots, handling kitchen appliances, peeling and chopping ingredients
    - These actions as AR-annotations (animations)
  - Case for using CV in tracking: lots of things to track
    - Ingredients
-     - Onion, meat, tomato sauce etc
-       - These have different states
+     - These have different states
    - Different kitchenware
-     - Pot for pasta, pan for sauce
-   - Kitchen appliances
-     - stovetop
-       - with settings (heat on high, medium, etc)
+     - bowl, knives
 Why cooking?
  - Real world problem where CV with AR could be useful.
  - Similar step-by-step approach as other prototypes in the education field
    - pylvanainen, reyesEtAl2016: step-by-step instrument teaching tutorial approach
  - If the end product here is successful the general approach could be adapted to different fields
 
-[](Issue #29 Prototype Description)
- - Our prototype will guide the user through the recipe...
- - Computer Vision is used to...
- - To test the prototype we'll
-[](Close issue #29)
-
  - We want our prototype to run on mobile
  - We want our prototype to be easily portable between platforms
- 
 [](Issue #32 how to run on mobile)
-
  - At this time we are focused on building a web app
 
 ## 4.2 Perceived Challenges 

@@ -8,48 +8,51 @@
 % interface be used in a cooking environment?
 %%%
 %  - Goal: build a demo system thet uses CV with AR
-The main goal of this thesis is to develop an application which aims to use a 
-modern CV and DL-based tracking solution in an AR application. This is first 
-defined in \hyperref[rq2]{\textbf{RQ2}}. Here we further define the needs of 
-this prototype. 
-% Prototype goals. We would like to create a prototype where
-%%%
-% - The prototype guides the user through a simple recipe and provides AR
-%   annotated instructions for each step
-%%%
-The aim of this prototype is to guide the user through the preparation of a 
-single recipe. 
-% Example: Bolognese recipe
+In order to empirically examine the use of an AR application with a modern CV 
+and DL-based tracking solution in a cooking environment, as defined in 
+\hyperref[rq2]{\textbf{RQ2}}, a suitable prototype needs to be developed. In 
+this chapter we aim to define this prototype: exactly what it'll need to do and 
+what kind of challenges we might face during development. In chapter 
+\ref{implementation} we further describe the steps taken during development 
+and the finished prototype. \par
+% Issue #29 Prototype Description
+% - Our prototype will guide the user through the recipe...
+% - Computer Vision is used to...
+% - To test the prototype we'll
+	The application developed for this thesis aims to guide the user 
+through the recipe defined in listing \ref{recipelisting}. In it Computer 
+Vision is used to track bowls, spoons, knives, apples, oranges and bananas. 
+In chapter \ref{usability}, the application will be used to conduct a usability 
+test, where subjects are asked to prepare the recipe with the help of the 
+application and their user experience is measured in a survey. \par
+% Justifying CV & discussing our recipe
 %%%
 % - Goal: offer \textbf{real-time} guidance for \textbf{actions} involved in
 %   making the dish
 % - adding ingredients to pots, handling kitchen appliances, peeling and 
-%   chopping ingredients, waiting for cooking times
+%   chopping ingredients
 % - These actions as AR-annotations (animations)
 % - Case for using CV in tracking: lots of things to track
 % - Ingredients
-%   - Onion, meat, tomato sauce etc
-%     - These have different states
+%   - These have different states
 % - Different kitchenware
-%   - Pot for pasta, pan for sauce
-% - Kitchen appliances
-%   - stovetop
-%     - with settings (heat on high, medium, etc)
+%   - bowl, knives
 %%%
-The goal would be to offer real-time guidance for all the actions involved in 
-making the chosen dish. AR-augmentations would need to be created for each of 
-the actions involved. Examples of these actions are for example adding 
-ingredients to pots, handling kitchen appliances, peeling and chopping 
-ingredients and waiting for cooking times. \par
+	The goal would be to offer real-time guidance for all of the actions 
+involved in making the fruit salad as defined in listing \ref{recipelisting}. 
+AR-augmentations would need to be created for each of the actions involved. 
+Examples of these actions are chopping the fruits and placing them in the 
+bowl.\par
 	There is a case to be made here for using more advanced CV and 
 DL-based methods for tracking. Most obvious among these is the simple fact 
-that there are lots of things to track. Just in the case of a simple pasta 
-Bolognese recipe one needs to track a bunch of different ingredients, such as 
-onion, meat, tomato sauce etc. These also have different states, such as raw, 
-peeled, chopped, translucent in the case of the onion. On top of ingredients, 
-different kitchenware such as pots and pans, and also different kitchen 
-appliances need to be tracked. An example would be an electric stove top with 
-different heat settings. \par
+that there are lots of things to track. Just in the case of our simple fruit 
+salad, one needs to track three different ingredients, which physically change 
+shape as they are chopped into pieces during the preparation process. On top 
+of the ingredients, different kitchenware such as a bowl and at least one knife
+needs to be tracked. It is pretty clear that such an application with this 
+many different trackable objects and changing states would be extremely 
+difficult to implement using traditional AR tracking methodologies, thus CV 
+and DL need to be used. \par
 % Why cooking?
 %%%
 % - Real world problem where CV with AR could be useful.
@@ -67,20 +70,10 @@ format for their AR-content. Both \textcite{pylvanainen} and
 \textcite{reyesEtAl2016} use this kind of approach to teach instrument use in 
 laboratories, but their applications use traditional tracking methods that 
 are developed for their specific instruments. If an easily retrainable modern 
-CV-based tracking method is used, one could theoretically take the cooking 
-app developed for this thesis, retrain the tracking module, and use it with 
-any step-by-step tutorial, making the potential of this sort of application 
-huge. \par
-% Issue #29 Prototype Description
-% - Our prototype will guide the user through the recipe...
-% - Computer Vision is used to...
-% - To test the prototype we'll
-	The application developed for this thesis aims to guide the user 
-through the recipe defined in listing \ref{recipelisting}. In it Computer 
-Vision is used to track bowls, spoons, knives, apples, oranges and bananas. 
-In chapter \ref{usability} the application will be used to conduct a usability 
-test, where subjects are asked to prepare the recipe with the help of the 
-application and their user experience is measured by a survey. \par
+CV-based tracking method is used, like in our application, one could 
+theoretically just retrain the tracking module, and use it in a completely 
+different environment, with any step-by-step tutorial, making the potential of 
+this sort of application huge. \par
 % - We want our prototype to run on mobile
 % - We want our prototype to be easily portable between platforms
 	In order for our prototype to be usable in a kitchen environment it 
