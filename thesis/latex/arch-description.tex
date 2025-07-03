@@ -2,15 +2,45 @@
 
 \section{Problem Description} \label{probDesc}
 
+% Justication for RQ2 should be included in this chapter
+%%%
+% RQ2: Can a system with a backend computer vision system and an AR user 
+% interface be used in a cooking environment?
+%%%
+%  - Goal: build a demo system thet uses CV with AR
 The main goal of this thesis is to develop an application which aims to use a 
 modern CV and DL-based tracking solution in an AR application. This is first 
 defined in \hyperref[rq2]{\textbf{RQ2}}. Here we further define the needs of 
-this prototype. The aim of this prototype is to guide the user through the 
-preparation of a single recipe. The goal would be to offer real-time guidance 
-for all the actions involved in making the chosen dish. AR-augmentations 
-would need to be created for each of the actions involved. Examples of these 
-actions are for example adding ingredients to pots, handling kitchen 
-appliances, peeling and chopping ingredients and waiting for cooking times. \par
+this prototype. 
+% Prototype goals. We would like to create a prototype where
+%%%
+% - The prototype guides the user through a simple recipe and provides AR
+%   annotated instructions for each step
+%%%
+The aim of this prototype is to guide the user through the preparation of a 
+single recipe. 
+% Example: Bolognese recipe
+%%%
+% - Goal: offer \textbf{real-time} guidance for \textbf{actions} involved in
+%   making the dish
+% - adding ingredients to pots, handling kitchen appliances, peeling and 
+%   chopping ingredients, waiting for cooking times
+% - These actions as AR-annotations (animations)
+% - Case for using CV in tracking: lots of things to track
+% - Ingredients
+%   - Onion, meat, tomato sauce etc
+%     - These have different states
+% - Different kitchenware
+%   - Pot for pasta, pan for sauce
+% - Kitchen appliances
+%   - stovetop
+%     - with settings (heat on high, medium, etc)
+%%%
+The goal would be to offer real-time guidance for all the actions involved in 
+making the chosen dish. AR-augmentations would need to be created for each of 
+the actions involved. Examples of these actions are for example adding 
+ingredients to pots, handling kitchen appliances, peeling and chopping 
+ingredients and waiting for cooking times. \par
 	There is a case to be made here for using more advanced CV and 
 DL-based methods for tracking. Most obvious among these is the simple fact 
 that there are lots of things to track. Just in the case of a simple pasta 
@@ -20,6 +50,15 @@ peeled, chopped, translucent in the case of the onion. On top of ingredients,
 different kitchenware such as pots and pans, and also different kitchen 
 appliances need to be tracked. An example would be an electric stove top with 
 different heat settings. \par
+% Why cooking?
+%%%
+% - Real world problem where CV with AR could be useful.
+% - Similar step-by-step approach as other prototypes in the education field
+% - pylvanainen, reyesEtAl2016: step-by-step instrument teaching tutorial 
+%   approach
+% - If the end product here is successful the general approach could be 
+%   adapted to different fields
+%%%
 	Cooking was chosen as the example use-case because it is a real world 
 problem where offering AR-based guidance would be useful and where using 
 advanced CV-methods in tracking is justified. In \ref{protos} we also see 
@@ -32,17 +71,25 @@ CV-based tracking method is used, one could theoretically take the cooking
 app developed for this thesis, retrain the tracking module, and use it with 
 any step-by-step tutorial, making the potential of this sort of application 
 huge. \par
+% Issue #29 Prototype Description
+% - Our prototype will guide the user through the recipe...
+% - Computer Vision is used to...
+% - To test the prototype we'll
 	The application developed for this thesis aims to guide the user 
 through the recipe defined in listing \ref{recipelisting}. In it Computer 
 Vision is used to track bowls, spoons, knives, apples, oranges and bananas. 
 In chapter \ref{usability} the application will be used to conduct a usability 
 test, where subjects are asked to prepare the recipe with the help of the 
 application and their user experience is measured by a survey. \par
-	In order for the prorotype to be usable in a kitchen environment it 
+% - We want our prototype to run on mobile
+% - We want our prototype to be easily portable between platforms
+	In order for our prototype to be usable in a kitchen environment it 
 needs to be able to run on a mobile phone. However the prototype has to be 
-easily portable to other platforms in the future. For this reason it will be 
-developed as a web app. Testing the application will be performed on a mobile 
-device.
+easily portable to other platforms in the future. 
+% Issue #32 how to run on mobile
+% - At this time we are focused on building a web app
+For this reason it will be developed as a web app. Testing the application 
+will be performed on a mobile device.
 
 \section{Perceived Challenges} \label{challenges}
 
