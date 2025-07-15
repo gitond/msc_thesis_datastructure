@@ -6,7 +6,10 @@
 
 ## 5.2 Collecting the data
 
- - Describe data here
+ - MS COCO dataset
+ - Downloaded using fiftyone
+ - Only the pictures that match our trackable categories
+ - Data exploration & preprocessing stage in progress
  
 ## 5.3 Training the CV module
 
