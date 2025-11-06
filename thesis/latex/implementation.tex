@@ -1,6 +1,25 @@
 \chapter{Implementation process}\label{implementation}
 
 \section{Defining the recipe}\label{recipe}
+
+As already discussed in \ref{probDesc}, in this work we're implementing an AR 
+application that uses a CV and DL-based tracking solution to aid in cooking. 
+To achieve this goal, one needs to train a DL-based object detection system, 
+capable of detecting different ingredients and kitchen appliances used during 
+the cooking process. To conduct this training process one needs to first 
+collect a relevant dataset of images and annotations (location data within the 
+image) of all object types we need to track. In essence this would mean 
+collecting thousands of pictures, examining them by hand and creating 
+appropriate annotation metadata for each image.\par 
+	To avoid this costly data creation stage, we decided to utilize 
+a pre-existing dataset. We use the 2017 version of Microsoft's Common Objects 
+in COntext (COCO, MS-COCO) dataset, developed by 
+\textcite{lin2015microsoftcococommonobjects}. This dataset contains annotated 
+data for more than 90 object types, including apples, bananas, oranges, bowls, 
+knives and spoons. With these specific object categories in mind, we've 
+defined the following recipe, where each of the steps should be trackable using 
+a DL-system trained with data from COCO:
+
 \begin{lstlisting}[caption=The recipe,captionpos=b,label=recipelisting]
 Chop apples with a knife
 Place apples to bowl
@@ -12,10 +31,36 @@ Stir apples, oranges and bananas in a bowl with a spoon
 \end{lstlisting}
 
 \section{Collecting the data}\label{data}
-Describe data here
+
+To download relevant images and annotations from the MS-COCO 
+dataset\cite{lin2015microsoftcococommonobjects}, we used the Python library 
+fiftyone developed by \textcite{moore2020fiftyone}. This library allowed us to 
+only download such images from COCO, that matched the object categories we were 
+interested in. The images still had annotations from other categories too, so 
+we wrote a Python script to trim all the unneeded annotations off of the 
+downloaded data.
 
 \section{Training the CV module}\label{training}
-Describe CV module here
+
+\textcite{ghasemi} mention that SSD MobileNet v2 is a suitable neural network 
+to build a tracking solution for a mobile AR-application, due to it being 
+lightweight and optimized for low-power devices. What's more \textcite{estrada} 
+actually built their DL-based AR-tracking solution using it. For these reasons 
+we also wanted to use SSD MobileNet v2 to power our AR-application's tracking. 
+To train an SSD MobileNet v2 neural network with our data we used the 
+TensorFlow machine learning framework.\cite{tensorflow2015-whitepaper}\par 
+	Using the TensorFlow framework to train a neural network, requires the 
+training data to be in a special .tfrecord data format.\cite{tfobdTutorial} 
+We used an official TensorFlow tutorial by \textcite{tfobdTutorial} to package 
+the image and annotation data downloaded from 
+COCO\cite{lin2015microsoftcococommonobjects} into this data format. \\
+\\
+\noindent More on CV training later:
+\begin{itemize}
+	\item tf config files
+	\item docker & containerizarion
+	\item trained model to tf.js conversion (this might be in \ref{backend})
+\end{itemize}
 
 \section{Application backend}\label{backend}
 \begin{itemize}
@@ -24,3 +69,5 @@ Describe CV module here
 \end{itemize}
 
 \section{AR-UI}\label{ar-ui}
+
+How are augmentations rendered?
