@@ -1,1 +1,84 @@
-\chapter{Prototype Descritpion} \label{proto}
+\chapter{Prototype Descritpion} \label{ourProto}
+
+\section{(Our Prototype: Need and User-perspective)} \label{nUPers}
+
+%%% PURPOSE OF THE PROTOTYPE & RESEARCH MOTIVATION
+
+% Justication for RQ2 should be included in this chapter
+%%%
+% RQ2: Can a system with a backend computer vision system and an AR user 
+% interface be used in a cooking environment?
+%%%
+In order to empirically examine the use of an AR application with a modern CV 
+and DL-based tracking solution in a cooking environment, as defined in 
+\hyperref[rq2]{\textbf{RQ2}}, a suitable prototype needs to be developed. In 
+this chapter we aim to define this prototype: exactly what it'll need to do and 
+what kind of challenges we might face during development. \par
+
+%%% USER-PERSPECTIVE DESCRIPTION OF THE APPLICATION
+
+%TODO: Write clear text for the following bullet points:
+% - High-level description of the application as a user would encounter it.
+% - “An AR application which guides the user through the preparation of a fruit salad.”
+
+
+
+%%%
+% - Goal: offer \textbf{real-time} guidance for \textbf{actions} involved in
+%   making the dish
+%   - adding ingredients to pots, handling kitchen appliances, peeling and 
+%     chopping ingredients
+%   - These actions as AR-annotations (animations)
+%%%
+	This application would offer real-time guidance for all of the actions 
+involved in making the fruit salad as defined in listing \ref{recipelisting}, 
+such as adding ingredients to pots, handling kitchen appliances, peeling and 
+chopping ingredients. AR-augmentations, such as animations and interface 
+elements, would guide the user through each of the actions involved. \par
+%%%
+% - Similar step-by-step approach as other prototypes in the education field
+%   - pylvanainen, reyesEtAl2016: step-by-step instrument teaching tutorial 
+%     approach
+%%%
+%TODO: Reword this section to better fit new structure
+	A similar approach of using AR-augmentations in guiding the user 
+through a sequence of actions one step at a time is present in several of the 
+prototypes described in \ref{protos}. Both \textcite{pylvanainen} and 
+\textcite{reyesEtAl2016} use this kind of approach to teach instrument use in 
+laboratories, but their applications use traditional tracking methods that 
+are developed for their specific instruments.
+
+
+
+%TODO: Write clear text for the following bullet point:
+% - Emphasize: user interaction is passive—camera + system guidance only.
+
+%TODO: Write clear text AND/OR write a diagram for the following bullet point:
+% - Describe end-to-end usage flow from user POV.
+
+
+
+\section{How Technical Challenges Affected Prototype Development} \label{devChallenges}
+
+%TODO: Write clear text for the following bullet point:
+% - Challenge 1: What to track
+
+
+
+%%%
+% - Case for using CV in tracking: lots of things to track
+%   - Ingredients
+%     - These have different states
+%   - Different kitchenware
+%     - bowl, knives
+%%%
+There is a case to be made here for using more advanced CV and DL-based 
+methods for tracking. Most obvious among these is the simple fact that there 
+are lots of things to track. Just in the case of our simple fruit salad, one 
+needs to track several different ingredients, which physically change shape as 
+they are chopped into pieces during the preparation process. On top of the 
+ingredients, different kitchenware such as a bowl and at least one knife needs 
+to be tracked. It is pretty clear that such an application with this many 
+different trackable objects and changing states would be extremely difficult 
+to implement using traditional AR tracking methodologies, thus CV and DL need 
+to be used. \par
