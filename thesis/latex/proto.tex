@@ -60,10 +60,12 @@ are developed for their specific instruments.
 
 \section{How Technical Challenges Affected Prototype Development} \label{devChallenges}
 
-%TODO: Write clear text for the following bullet point:
-% - Challenge 1: What to track
+%%% CHALLENGE 1: PLATFORM CHOICE %%%
 
+%%% CHALLENGE 2: WHAT TO TRACK %%%
 
+% TODO: Look at old 4.2 for this bullet point:
+% - What to track?
 
 %%%
 % - Case for using CV in tracking: lots of things to track
@@ -82,3 +84,27 @@ to be tracked. It is pretty clear that such an application with this many
 different trackable objects and changing states would be extremely difficult 
 to implement using traditional AR tracking methodologies, thus CV and DL need 
 to be used. \par
+%%%
+% - The whole action detection problem: even if we can track each object
+%   separately, a step in the recipe would be something like "chop the apple
+%   to pieces". How does the system know this is done?
+%%%
+	While using modern DL-based object detection methods makes it possible 
+to track multiple distinct objects without using any markers\cite{ghasemi}, 
+the multi-statedness of the ingredients in this recipe causes a problem. 
+Namely: the following step from our recipe \textit{"Chop apples with a knife"}
+, requires us to track some apples and a knife. This isn't a problem in 
+itself, however our AR-software needs to have a way to determine when the 
+user is done completing the step.\par
+	There are three ways to do this. First, one could train the neural 
+network to track whole apples and chopped apples as separate classes. In such 
+a system the completition criteria for this step could be "When the system 
+has stopped detecting whole apples and only detects chopped apples, consider 
+the step done". A second option could be to try to detect the human action of 
+chopping instead of merely detecting the state-change of the chopped apple. 
+DL-based software, including CV-systems have been used to study the 
+possibility of Human Action Recognition (HAR), the ability to use data from 
+sensors (in the case of CV: cameras) to determine what action a human subject 
+is performing.\cite{sedaghati2025} A third option would simply be to get the 
+human user to confirm that they've done the action. This would be done through 
+the AR-UI.

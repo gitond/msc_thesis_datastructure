@@ -22,7 +22,19 @@ RQ2: can such a system be used in cooking? [](From_OLD4.1)
 
 ## 4.2 How Technical Challenges Affected Prototype Development 
 
-[](Challenge1:_What_to_track)
+[](Challenge1:_Platform_choice)
+
+[](From_old_4.2_never_written)
+
+ - Portability between platforms
+   - One solution is to build for the web
+     - But this creates its own set of challenges
+       - How to build AR or CV for web?
+   - Platform specific issues
+     - Mobile: discussed
+     - HoloLens: unpleasant, uncomfortable, limited battery capacity, sometimes has online connectivity requirement (ghasemi)
+
+[](Challenge2:_What_to_track)
 
  - What to track? [](From_OLD4.2)
  - Case for using CV in tracking: lots of things to track [](From_OLD4.1)
@@ -32,7 +44,7 @@ RQ2: can such a system be used in cooking? [](From_OLD4.1)
      - bowl, knives
  - The whole action detection problem: even if we can track each object separately, a step in the recipe would be something like "chop the apple to pieces". How does the system know this is done? [](From_OLD4.2)
 
-[](Challenge2:_Data_availability_and_recipe_design)
+[](Challenge3:_Data_availability_and_recipe_design)
 
  - Data availability strongly shaped which recipe steps were feasible. [](NEW)
  - Data Quality [](From_OLD4.2)
@@ -90,13 +102,6 @@ RQ2: can such a system be used in cooking? [](From_OLD4.1)
  - Perofrming CV tasks on mobile
    - Issues with computation time, effectiveness (ghasemi)
    - Energy consumption (ghasemi)
- - Portability between platforms
-   - One solution is to build for the web
-     - But this creates its own set of challenges
-       - How to build AR or CV for web?
-   - Platform specific issues
-     - Mobile: discussed
-     - HoloLens: unpleasant, uncomfortable, limited battery capacity, sometimes has online connectivity requirement (ghasemi)
 
 [](NEW)
 
