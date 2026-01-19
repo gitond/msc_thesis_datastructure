@@ -62,6 +62,57 @@ are developed for their specific instruments.
 
 %%% CHALLENGE 1: PLATFORM CHOICE %%%
 
+%%%
+% - Portability between platforms
+%   - One solution is to build for the web
+%     - But this creates its own set of challengwes
+%       - How to build AR or CV for web
+%%%
+Before even beginning prototype development, one is already faced with the 
+technical challenge of choosing the platform to develop for. In \ref{protos} 
+we looked at five different AR-applications for studying the use of AR in the 
+field of education. Out of these, three were developed for smartphones and 
+tablets.\cite{pylvanainen}\cite{estrada}\cite{LinAndLee2020} The application 
+developed by \textcite{reyesEtAl2016} was also developed as an Android app, 
+but used on HMD-devices. This application was made to teach users to operate 
+milling and lathe machines, which required the usage of both hands. Thus the 
+experimental setup necessitated the use of the application on a HMD. Similarly 
+\textcite{VanGestel2024} built their prototype on Microsoft's HoloLens 
+headset. They also needed their subjects to use both hands on the real world 
+task their AR-application was designed to help with. Additionally their use 
+case needed increased measuring accuracy that was provided by the HoloLens' 
+hardware.\par
+	Our use case consists of the user completing a fruit salad. In this 
+use case the usage of both hands would be preferable. However at the time of 
+prototype development we didn't have access to HMDs. But since 
+\textcite{reyesEtAl2016} also developed a generic Android application, which 
+they later ran on compatible HMD-devices, we don't consider hardware access 
+at development time a critical limitation, as long as easy portability between 
+devices is an option. Answering \hyperref[rq1]{\textbf{RQ1}} also requires us 
+to integrate DL-based CV-systems into our application. Thus our application's 
+platform choice has to meet the following two criteria:
+\begin{itemize}
+	\item Be easily runnable on both traditional smartphones and HMD-devices
+	\item Be able to run DL-based CV-systems as well as AR-UI.
+\end{itemize}
+\par 
+	One solution would simply be to build a web app. That way the 
+application could work on any hardware with a modern browser. Both 
+AR\cite{chen2022} and CV-systems\cite{tfWeb} have been built for the web 
+before, and sufficient development frameworks are available which makes 
+development of such applications possible. Now the major challenge becomes 
+using these technologies together and integrating them with each other.
+
+%TODO: Decide where you want to talk about these, or possibly remove.
+%%%
+%   - Platform specific issues
+%     - Mobile: discussed
+%     - HoloLens: unpleasant, uncomfortable, limited battery capacity, 
+%       sometimes has online connectivity requirement (ghasemi)
+%%%
+
+
+
 %%% CHALLENGE 2: WHAT TO TRACK %%%
 
 % TODO: Look at old 4.2 for this bullet point:
@@ -74,7 +125,7 @@ are developed for their specific instruments.
 %   - Different kitchenware
 %     - bowl, knives
 %%%
-There is a case to be made here for using more advanced CV and DL-based 
+	There is a case to be made here for using more advanced CV and DL-based 
 methods for tracking. Most obvious among these is the simple fact that there 
 are lots of things to track. Just in the case of our simple fruit salad, one 
 needs to track several different ingredients, which physically change shape as 

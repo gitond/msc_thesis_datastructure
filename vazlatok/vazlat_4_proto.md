@@ -101,7 +101,7 @@ RQ2: can such a system be used in cooking? [](From_OLD4.1)
  - Need to perform CV in real time
  - Perofrming CV tasks on mobile
    - Issues with computation time, effectiveness (ghasemi)
-   - Energy consumption (ghasemi)
+   - Energy consumption (ghasemi, chen2022)
 
 [](NEW)
 
