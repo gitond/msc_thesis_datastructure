@@ -11,3 +11,7 @@ Data pipeline errorproofattu; Nyt sen ei pitäisi rikkoutua nettikatkoksista en�
 Perjantai Maalis 6
 
 Viimeiset muutokset training processia varten: pieniä parametrimuutoksia. Training process käynnistetty. Hajosi. Ongelma: Ajuri tarvitsee vanhemman tensorflow version. Uudelleenrakennettu kehitysympäristö vanhemmalla tf versiolla.
+
+Perjantai Maalis 13
+
+Uudelleenrakennettu kehitysympäristö vanhemmalla tf versiolla. Suoritettu ensimmäinen training process. Koitettu päivittää data displayeriä & ajaa dataa koulutetun tekoälyn läpi. Ei vielä toimi kovin hyvin. Mietin jatkotoimenpiteitä.
